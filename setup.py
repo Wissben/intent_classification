@@ -1,7 +1,7 @@
 import itertools
 import json
 import re
-from random import random
+import random
 
 import gensim
 import nltk
