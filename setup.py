@@ -22,12 +22,14 @@ from utils import (exclude_condition,
                    create_index_to_tag,
                    training_loop)
 
-class Variables :
+
+class Variables:
     PLUGS = None
     INSTANCES = None
     GROUP = None
     dicts = None
     models = None
+
 
 def prepare_plugs():
     PLUGS = open(config.PLUGS_PATH, 'r').readlines()
@@ -155,17 +157,17 @@ def prepare_models():
                         period=1)
     ]
 
-    embbeder = gensim.models.KeyedVectors.load_word2vec_format('gdrive/My Drive/GoogleNews-vectors-negative300.bin.gz',
-                                                               binary=True)
+    embbeder = gensim.models.KeyedVectors.load_word2vec_format(
+        '/content/gdrive/My Drive/GoogleNews-vectors-negative300.bin.gz',
+        binary=True)
 
     return {'model': model, 'callbacks': callbacks, 'embedder': embbeder}
 
 
 if __name__ == '__main__':
-
     Variables.PLUGS = prepare_plugs()
     print(Variables.PLUGS)
     # fill_dataset(Variables.PLUGS)
     Variables.INSTANCES, Variables.GROUP = load_instances()
-    Variables.dicts = load_dicts(model_name='test',encoder_output_dim=256)
+    Variables.dicts = load_dicts(model_name='test', encoder_output_dim=256)
     Variables.models = prepare_models()

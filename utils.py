@@ -41,13 +41,19 @@ def train_batch_generator(data, embedder, steps, batch_size=1, padded=False, sam
     :type data: dict
     :param embedder: word2vec model used for word embedding
     :type embedder: Word2VecKeyedVectors
-    :param steps:
-    :param batch_size:
-    :param padded:
-    :param sample_weights:
-    :param dicts:
+    :param steps: number of steps per epochs
+    :type steps: int
+    :param batch_size: the size of one batch of data
+    :type batch_size: int
+    :param padded: to pad or not the data
+    :type padded; bool
+    :param sample_weights: an array like object of weights assosciated to each sample
+    :type sample_weights: list
+    :param dicts: set of data indexing dictionaries
+    :param dicts: dict
     :return:
     """
+
     random.shuffle(data)
     index = 1
     while True:
