@@ -2,7 +2,7 @@ import json
 import os
 import re
 from pprint import pprint as pr
-from random import random
+import random
 
 import nltk
 import numpy as np

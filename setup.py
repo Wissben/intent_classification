@@ -43,6 +43,7 @@ def fill_dataset(PLUGS):
     try:
         f = open(config.DATASET_CLEANED_PATH, 'w')
         data = load_data(config.DATASET_PATH)
+        print(config.DATASET_PATH)
         types = [typ for typ in data['train_dataset']]
         for typ in types:
             print(typ)
