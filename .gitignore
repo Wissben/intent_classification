@@ -1,5 +1,5 @@
-data/traning/dummy_data
-
+data/**/dummy_data/
+data/training/slot_filling_datasets/train_cleaned_intents.json
 models/deps_parser
 models/word2vec
 venv_intents
@@ -7,4 +7,4 @@ encoder_decoder_training.py
 .idea*
 .ipynb*
 .vscode
-*.pyc
+**.pyc

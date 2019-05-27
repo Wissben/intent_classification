@@ -1,0 +1,7559 @@
+{
+	"intents_set": [
+		"create_file_desire",
+		"create_directory_desire",
+		"delete_file_desire",
+		"delete_directory_desire",
+		"open_file_desire",
+		"close_file_desire",
+		"copy_file_desire",
+		"move_file_desire",
+		"rename_file_desire",
+		"change_directory_desire",
+		"inform",
+		"deny",
+		"confirm",
+		"unknown"
+	],
+	"tags_set": [
+		"file_name",
+		"parent_directory",
+		"new_directory",
+		"directory_name",
+		"origin",
+		"dest",
+		"old_name",
+		"new_name",
+		"NUL"
+	],
+	"train_dataset": {
+		"folders": [
+			{
+				"id": 1,
+				"text": "Can you open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "Open the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "Display the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please open the {file_name:} folder for me",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "List the content of the {file_name:} folder",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "Open the {file_name:} subfolder under {parent_directory:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 15,
+				"text": "Show me the {file_name:} subfolder under {parent_directory:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "Open the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "Display the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please open the {file_name:} directory for me",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "List the content of the {file_name:} directory",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "Open the {file_name:} subdirectory under {parent_directory:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I want to close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "close the {file_name:} folder",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please close the {file_name:} folder for me",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "close the {file_name:} subfolder under {parent_directory:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I want to close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "close the {file_name:} directory",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please close the {file_name:} directory for me",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "close the {file_name:} subdirectory under {parent_directory:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I would like to create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 8,
+				"text": "create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 11,
+				"text": "Hey would you please create the {file_name:} folder for me",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 13,
+				"text": "create the {file_name:} subfolder under {parent_directory:}",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 14,
+				"text": "Show me the {file_name:} subfolder under {parent_directory:}",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "Can you create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 16,
+				"text": "Could you please create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 17,
+				"text": "Please create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 18,
+				"text": "Can you create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 19,
+				"text": "I would like to create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 20,
+				"text": "I would like to create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 21,
+				"text": "I would like to create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 22,
+				"text": "create the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 25,
+				"text": "Hey would you please create the {file_name:} directory for me",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you create the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I would like to make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 8,
+				"text": "make the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} folder",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 11,
+				"text": "Hey would you please make the {file_name:} folder for me",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 13,
+				"text": "make the {file_name:} subfolder under {parent_directory:}",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 14,
+				"text": "Show me the {file_name:} subfolder under {parent_directory:}",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "Can you make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 16,
+				"text": "Could you please make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 17,
+				"text": "Please make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 18,
+				"text": "Can you make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 19,
+				"text": "I would like to make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 20,
+				"text": "I would like to make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 21,
+				"text": "I would like to make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 22,
+				"text": "make the {file_name:} directory",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 25,
+				"text": "Hey would you please make the {file_name:} directory for me",
+				"intent": "create_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 8,
+				"text": "delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 9,
+				"text": "delete me the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 10,
+				"text": "delete the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please delete the {file_name:} folder for me",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 13,
+				"text": "delete the content of the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 14,
+				"text": "delete the {file_name:} subfolder under {parent_directory:}",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "delete me the {file_name:} subfolder under {parent_directory:}",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want you to delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 8,
+				"text": "delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 9,
+				"text": "delete me the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 10,
+				"text": "delete the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please delete the {file_name:} directory for me",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 13,
+				"text": "delete the content of the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 14,
+				"text": "delete the {file_name:} subdirectory under {parent_directory:}",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 8,
+				"text": "remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 9,
+				"text": "remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 10,
+				"text": "remove the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please remove the {file_name:} folder for me",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 13,
+				"text": "remove the content of the {file_name:} folder",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 14,
+				"text": "remove the {file_name:} subfolder under {parent_directory:}",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "remove the {file_name:} subfolder under {parent_directory:}",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want you to remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 8,
+				"text": "remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 9,
+				"text": "remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 10,
+				"text": "remove the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please remove the {file_name:} directory for me",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 13,
+				"text": "remove the content of the {file_name:} directory",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 14,
+				"text": "remove the {file_name:} subdirectory under {parent_directory:}",
+				"intent": "delete_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the {new_directory:}folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find and move to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "find and move to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to the directory {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to the folder {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the directory {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the folder {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change directory to {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change folder to {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find the {new_directory:} directory and move to it",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find the {new_directory:} folder and move to it",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the {new_directory:}folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find and move to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "find and move to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to the directory {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to the folder {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the directory {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the folder {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change directory to {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change folder to {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find the {new_directory:} directory and move to it",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1544,
+				"text": "find the {new_directory:} folder and move to it",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Would you please move to {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Would you please move to {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Could you change the current working space to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you please change the current working space to the {new_directory:}folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "I would like to change the working directory to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move on to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "I would like to find and move to the {new_directory:} directory",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 15,
+				"text": "find and move to the {new_directory:} folder",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to the directory {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "Move to the folder {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the directory {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the current working space to the folder {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change directory to {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "change folder to {new_directory:}",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find the {new_directory:} directory and move to it",
+				"intent": "change_directory_desire"
+			},
+			{
+				"id": 1,
+				"text": "find the {new_directory:} folder and move to it",
+				"intent": "change_directory_desire"
+			}
+		],
+		"files": [
+			{
+				"id": 1,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 11,
+				"text": "Hey would you please create the {file_name:} file for me",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "create the {file_name:} file under {parent_directory:}",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "Show me the {file_name:} file under {parent_directory:}",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 15,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 16,
+				"text": "Could you please create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 17,
+				"text": "Please create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 18,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 19,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 20,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 21,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 22,
+				"text": "create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 25,
+				"text": "Hey would you please create the {file_name:} file for me",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I would like to make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 11,
+				"text": "Hey would you please make the {file_name:} file for me",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "make the {file_name:} file under {parent_directory:}",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "Show me the {file_name:} file under {parent_directory:}",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 15,
+				"text": "Can you make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 16,
+				"text": "Could you please make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 17,
+				"text": "Please make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 18,
+				"text": "Can you make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 19,
+				"text": "I would like to make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 20,
+				"text": "I would like to make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 21,
+				"text": "I would like to make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 22,
+				"text": "make the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 25,
+				"text": "Hey would you please make the {file_name:} file for me",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you open the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you open the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please open file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please open file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please open file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please open the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please open the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you open the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you open the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to open the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to open the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I would like to open the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to open the {file_name:} file",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "Open the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "Open the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "Display the file named {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "Display the file {file_name:}",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please open the file named {file_name:} for me",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please open the file {file_name:} for me",
+				"intent": "open_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you close the file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you close the file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please close file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please close file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please close file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please close the file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please close the file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you close the file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you close the file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to close the file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I want to close the file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "close the file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "close the file {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the file named {file_name:}",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please close the file named {file_name:} for me",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please close the file {file_name:} for me",
+				"intent": "close_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "delete me the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please delete the {file_name:} file for me",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "delete the content of the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "delete the {file_name:} file under {parent_directory:}",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 15,
+				"text": "delete me the {file_name:} file under {parent_directory:}",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want you to delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "delete me the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "delete the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please delete the {file_name:} file for me",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "delete the content of the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "delete the {file_name:} file under {parent_directory:}",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please remove the {file_name:} file for me",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "remove the content of the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "remove the file {file_name:} under {parent_directory:}",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 15,
+				"text": "remove the file named {file_name:} under {parent_directory:}",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 2,
+				"text": "Could you please remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 3,
+				"text": "Please remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want to remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I want you to remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 10,
+				"text": "remove the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 12,
+				"text": "Hey would you please remove the {file_name:} file for me",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "remove the content of the {file_name:} file",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "remove the {file_name:} file under {parent_directory:}",
+				"intent": "delete_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "Can you copy the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you copy the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please copy the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please copy the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "copy the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy {origin:} file to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1776,
+				"text": "Can you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you copy {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you copy {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "copy {origin:} file to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1945,
+				"text": "Can you duplicate the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you duplicate the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please duplicate the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please duplicate the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "duplicate the {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file to {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file to {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to the {dest:} directory",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to the {dest:} folder",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1776,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to {dest:}",
+				"intent": "copy_file_desire"
+			},
+			{
+				"id": 2287,
+				"text": "Can you move the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you move the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please move the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please move the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "move the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move {origin:} file to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1776,
+				"text": "Can you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you move {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you move {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "move {origin:} file to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1945,
+				"text": "Can you duplicate the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you duplicate the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please duplicate the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please duplicate the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "duplicate the {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file to {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file to {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to the {dest:} directory",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to the {dest:} folder",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1776,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you duplicate {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you duplicate {origin:} to {dest:}",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate the {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "duplicate {origin:} file",
+				"intent": "move_file_desire"
+			},
+			{
+				"id": 2960,
+				"text": "Can you rename the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you rename {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you rename {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you rename the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you rename {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you rename {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could please you rename the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could please you rename {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could please you rename {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please rename the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please rename {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please rename {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "rename the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "rename {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "rename {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1776,
+				"text": "Can you rename the {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you rename {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you rename the {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you rename {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you rename {old_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please rename the {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please rename {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please rename {old_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "rename {old_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "rename {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 3085,
+				"text": "Can you change the name of the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you change the name of {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you change the name of {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could you change the name of the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you change the name of {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you change the name of {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "could please you change the name of the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could please you change the name of {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could please you change the name of {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "please change the name of the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please change the name of {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "please change the name of {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1604,
+				"text": "change the name of the {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the name of {old_name:} file to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the name of {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1776,
+				"text": "Can you change the name of the {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "Can you change the name of {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you change the name of the {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you change the name of {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you change the name of {old_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please change the name of the {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please change the name of {old_name:} file",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "could you please change the name of {old_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the name of {old_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 1,
+				"text": "change the name of {old_name:} to {new_name:}",
+				"intent": "rename_file_desire"
+			},
+			{
+				"id": 4,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 5,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 6,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 7,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 8,
+				"text": "create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 9,
+				"text": "Show me the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 11,
+				"text": "Hey would you please create the {file_name:} file for me",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 13,
+				"text": "create the {file_name:} file under {parent_directory:}",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 14,
+				"text": "Show me the {file_name:} file under {parent_directory:}",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 15,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 16,
+				"text": "Could you please create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 17,
+				"text": "Please create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 18,
+				"text": "Can you create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 19,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 20,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 21,
+				"text": "I would like to create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 22,
+				"text": "create the {file_name:} file",
+				"intent": "create_file_desire"
+			},
+			{
+				"id": 25,
+				"text": "Hey would you please create the {file_name:} file for me",
+				"intent": "create_file_desire"
+			}
+		],
+		"unknown": [
+			{
+				"id": 1,
+				"text": "What software can I use to view epub documents",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Which PDF Viewer would you recommend",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What IDEs are available for Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the best Mind Mapping Software",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Software to read a QR code",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "PDF to word conversion software",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there software that can view .dwg files",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What are some good PHP editors",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a software utility to adjust screen gamma/brightness/contrast",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Please recommend a hex editor for shell",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there LAN topology mapping software available in Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a tool like wifi analyzer for ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Tool for recovering deleted data from a flash drive",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's a simple colour picker app for GNOME",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Any app that tells me to take regular breaks from working",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What are some good ASCII art generators",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What are some good GUI binary viewers/editors",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Which is the best PDF metadata viewer for Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a Linux file manager with a proper drop-down tree view (like finder in OS X)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Which application do you recommend for watching TV (DVB)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What Is The Best HDR Software",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What do you use to edit Microsoft Word documents (docx)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the best Wireframing tool",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there any software that will do face recognition in photos",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Applications to replace iTunes for iPod synchronization",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there an SSH connection manager",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "A light alternative to gnome-system-monitor",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Software to create a video slideshow",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a project management software for Ubuntu like Microsoft Project",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there any recovery software available for ext4",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What blog editor software are available",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can you recommend a good modern GUI download manager (wget wrapper)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there any program for fuzzy string matching which provides a match score",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Are there any hardware diagnostic tools",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Recommendation for Regex editor",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a Document scanning and archiving software",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Keyboard shortcut to shutdown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "My system doesn't go shutdown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to troubleshoot slow shutdown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can I shutdown the computer when a certain process ends",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Ubuntu Shut down app",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What does my computer do when I click 'Shut Down'",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I shut down without the confirmation prompt",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "No action when shutdown pressed",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what is the right way to shutdown ubuntu using the command line",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can I make shutdown not require admin password",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "shutdown in specific way if no-one uses computer",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is the command to open the shutdown dialog",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to Shut down Ubuntu by using keyboard",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "shutdown 5:30pm every day",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading from 11.10 to 12.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I upgrade to the release version of 16.04 if I am running Beta",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Doubts regarding the 15.04 upgrade (is it inevitable and unavoidable)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is any offline upgrade from 13.10 to 14.04 possible",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading from ubuntu 12.04 to 13.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Ubuntu upgrade failed",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading from 12.04 to 13.10 ( Unanswered questions )",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "upgrading to Ubuntu 13.10 from Ubuntu 13.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it recommended to upgrade to Lubuntu 15.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Force upgrade 12.10 to 13.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to partially upgrade Ubuntu 11.10 from Ubuntu 11.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Problem upgrading Ubuntu 9.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it necessary to upgrade to 15.10 from 14.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I update Xubuntu 11.10 to Xubuntu 12.04 LTS",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Why did the upgrade from 11.10 to 12.04 ruin my system",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Problems upgrading from 12.04 to 14.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Problems upgrading Ubuntu 12.10 to 13.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrade from 12.04 to 12.10 without losing files",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "On really old Ubuntu 6.06 - How to upgrade",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Do I need to uninstall 10.04 to upgrade to 12.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Do I need to reinstall everything to upgrade from 13.10 to 14.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "update-manager: upgrade to 15.04 rather than 16.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading 16.04 to 16.04.1",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading Ubuntu Server 9.10 to 10.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Ho do I update to 13.04 from the beta",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade from 12.10 to 14.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading from 10.10 to 11.04 how much space is needed",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Do I need to backup my 12.04 system to upgrade to 12.04.1",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Cannot upgrade from 12.04LTS to 14.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrade 10.10 to 11.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade from 14.04 LTS or 15.10 to 16.04 from terminal",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade from 16.04 LTS to 16.04.1 LTS",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading from 10.04 to 11.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can i upgrade to Ubuntu 14.04 final from 14.04 Beta correctly",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there an upgrade procedure from 12.04 LTS to 14.04 LTS",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrade from 9.10 to 11.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade Ubuntu 12.04 to 14.04 if I have dual boot with windows 7",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Wubi Device /dev/loop0 full. How to get more space",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Using 12.04 can I compile packages with gcc for 10.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Removing Recently used items in 12.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading From 11.04 (32bit) to 12.04 (64bit)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How is rm command different from the delete button",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "In Unity how do I see the details of a given launcher",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to provide user permission to read and write on /dev/sdax What is the syntax",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Security enhancements prevent mounting /dev/sdb1",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I show grub when resuming from suspend",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to install a Lexmark z600 series printer",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Cannot setup HP All in one DJ3630",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to add a network printer on Ubuntu 15.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Cannot install printer driver epson l210",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I install Dell 2150cdn printer",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Installing Epson XP-424 wireless printer",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Installing EPSON L355 on Ubuntu 14.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I install the HP F4280 printer",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to Install Brother DCP-8110DN Laser Printer on Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to Install a Canon MF8040Cn Printer on Ubuntu 12.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How Do I Install Canon MF8000C Printer in Ubuntu 15.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to install Canon LBP330 in Lts 16.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Install printer Lexmark X4690 (ubuntu 12.04)",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to record my screen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can I highlight or annotate PDFs",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it worth upgrading from 12.04 LTS to 13.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrade to 12.04 64 bit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade Ubuntu 14.04.1 to 14.04.2",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrading from Ubuntu 14.04 to 15.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to upgrade from ubuntu 15.04 to 15.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Upgrade 12.04 to 12.10 using startup disk",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to Upgrade from 11.10 to 12.04 when you've got a problem",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Update 11.04 to 12.04 with LiveCD",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade Ubuntu 9.10 to 12.10 via terminal",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to upgrade from Ubuntu 10.10 to 11.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "No matter what I do Ubuntu 15.04 does not recognize HP LaserJet 1020",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to setup HP printer/scanner on ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I setup my HP C4140 printer wirelessly",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to setup wireless printing from a printer connected via usb on Ubuntu Server 12.10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can I install a Pantum 2502W laser printer on Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Install Canon MP560 Ubuntu 15.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to install a Brother MFC-5890CN network printer",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I install drivers for a Konica Minolta 200",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I install drivers for the Panasonic MB1900CX All-in-One Printer/Scanner",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How To Install Canon LBP2900B printer in 14.04 LTS  I tried the method for LBP2900 but it didnt work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Any command line calculator for Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Extracting embedded images from a PDF",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What to use to quickly cut Audio/Video",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Torrent client for the command-line",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "MySQL GUI Tools",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What developer text editors are available for Ubuntu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What screenshot tools are available",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Which programs can I use to edit PDF files",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a lightweight tool to crop images quickly",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What IRC clients are available",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What new games are available for Ubuntu in 2011",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "UPNP / DLNA (client) player recommendations",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What scientific plotting software is available",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can you recommend a password generator",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What tools do you use to monitor a web server",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is a good MongoDB GUI client",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Password Management Applications",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there an application for reading mobi files",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "shut down without extra question",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to shutdown computer when users are logged on",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is the proper terminal-way to shutdown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can I automatically shutdown the system after a specific time",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Hotkey to shut down from login screen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How to shutdown the computer after Xsession ends",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can one shutdown a PC using the keyboard",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How can I enable shutdown verbosity",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Are there any Keyboard Shortcuts to Shutdown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Shutdown after a certain time",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Shutdown problem in Ubuntu 16.04",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I fix a shutdown problem",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What graphical utility can I use for Ubuntu auto shutdown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "i want to go marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in muncher freiheit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next u-bahn leaves from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from olympia einkaufszentrum to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train from winterstra 00dfe 12 to kieferngarten",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next rocket from winterstra 00dfe 12 to kieferngarte",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you find a connection from garching to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from untere strass 00e4cker 21 to fr 00f6ttmaning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how i can get from marienplatz to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "connection from boltzmannstra 00dfe to kieferngarten",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from bonner platz to freimann",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next s-bahn leaving at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get from oez to hbf",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from winterstrasse 12 to fr 00f6ttmaning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get from garching forschungszentrum to pasing",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "theresienstra 00dfe to assling",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from theresienstra 00dfe to munich east",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus starts from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from quiddestra 00dfe to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you find a connection from kurt-eisner-stra 00dfe to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you find a connection from quiddestra 00dfe to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train leaves at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from hauptbahnhof to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to glockenbachviertel from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how i can get from garching to nordfriedhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to glockenbachviertel from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train leaving in garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from moosach to quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from moosach to poccistra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from kurt-eisner-stra 00dfe to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from moosach to quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from moosach to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus starts at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what's the shortest way from quiddestra 00dfe to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next bus from ostbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how i can get from garching to neuperlach sued",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in munchner freiheit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how i can get from marienplatz to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get from poccistra 00dfe to laim",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "i want to go garching from marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how i can get from marienplatz to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from hauptbahnhof to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "prinzregentenplatz to rotkreuzplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "i want to go to garching from marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next train from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from prinzregentenplatz to rotkreuzplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next subway from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from garching to klinikum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from garching foschungszentrum to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next bus in garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the train leaving in garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next subway from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "tell me the next bus from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next bus from garching, please.",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next bus from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next bus from central station",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from garching to marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next bus from garching.",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "connection from garching to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus departs from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "find connection from hauptbahnhof to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next u-bahn departs at garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next u-bahn departs at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next subway departs at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from m 00fcnchner freiheit to garching ",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "implerstra 00dfe to ostbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from hauptbahnhof to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i go from garching forschungszentrum to prinzregentenplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from mangfallplatz to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to hohenlindenerstra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "harthaus to hackerbr 00fccke",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from feldmoching to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from marienplatz to petershausen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the train from garching to marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "neufahrn to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from mangfallplatz to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to hohenlindenerstr",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next bus from garching forschungzentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get from spitzingplatz to poccistra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching forschungszentrum to marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from klinkum to marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from alte heide to marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next train from muenchen freicheit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "depart in garching, i assume",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next u-bahn depart at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "the next bus from garching forschungzentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in alte heide",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "or depart from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "hello munich city bot how do i get from m 00fcnchner freiheit to scheidplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching forschungszentrum to prinzregentenplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from neufahrn to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "take me to the airport",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next u6 leave from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how i can get from munchner freiheit to nordfriedhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from harthaus to hackerbr 00fccke",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the train from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what is the next train from m 00fcnchner freiheit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from theresienstrasse to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from m 00fcnchner freiheit to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from garching to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "start: neufahrn end:garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from studentenstadt to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next bus from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "take me from hauptbahnhof to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what's the shortest connection between quiddestra 00dfe and odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what is the cheapest connection between quiddestra 00dfe and hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what's the shortest way between hauptbahnhof and odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to m 00fcnchner freiheit as fast as possible",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what's the cheapest way from neuperlach s 00fcd to lehel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from neuperlach zentrum to karlsplatz as fast as possible",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "could you give me the fastest connection between bruderm 00fchlstra 00dfe and alte heide",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "is there a train from neuperlach zentrum to garching at 3 pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you find a connection from olympiazentrum to lehel at 2 pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "i need a connection from harras to karl-preis-platz at 8 am.",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "in need to be at hauptbahnhof at 1 pm, can you search a connection from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "i need to be in garching at 9",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can i take a bus from quiddestra 00dfe to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you find the shortest way from moosfeld to milbertshofen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to neuperlach s 00fcd from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you find a bus from quiddestra 00dfe to lehel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "is there a tram from karlsplatz to lehel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "is there a bus from garching to moosach at around 5",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "is there a bus from odeonsplatz to hauptbahnhof at 3 pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you tell me the cheapest way from garching forschungszentrum to quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus leaves from hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from kurt-eisner-stra 00dfe to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when the next train in garching,forschungszentrum is leaving",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "what is the next connection from garching forschungszentrum to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from mossach to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching forschungszentrum to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching, forschungszentrum to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching forschungszentrum to kurt-eisner-stra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to boltzmannstra 00dfe from quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train departs from quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when the next train in garching forschungszentrum is leaving",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next u6 leaving from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train leave from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next u6",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next subway leaving from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when the next train in garching is leaving",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train leaving in garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train leaves from odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train leaves from quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus leaves at garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train leaves",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus leave in garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next s-bahn leaves from hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next subway departes from odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "show me the next bus from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next tram starts from hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when will the next u-bahn depart from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "show me the next bus from michaelibad.",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train starts at sendlinger tor",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "hey bot, when does the next bus starts at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus leaves at garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the bus from quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when can i get a bus at mariahilfplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next bus leaves at romanplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the bus to r 00f6blingweg starts",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "next bus from quiddestra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next bus leaving from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the train leaving in garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the train leaving in garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is adrians next subway leaving at garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from olympiazentrum to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from quiddestra 00dfe to boltzmannstra 00dfe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from moosach to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "can you give me a connection from garching to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when comes the next train",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in nordfriedhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next train come at garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train from nordfriedhof to garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "i want to travel from garching to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to sendlinger tor",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get to untere strauss 00e4cker",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to sendlinger tor",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garchingto garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get from marienplatz zu garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get to milbertshofen from garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train to garching",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to milbertshofen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when does the next rocket leaves from garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "connection from untere stra 00df 00e4cker 21 to kieferngarten",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from untere strass 00e4cker 21 to fr 00f6tmaning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from untere strassaecker 21 to fr 00f6tmaning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train from untere stra 00dfaecker 21 to kieferngarten",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train from untere stra 00dfaecker 21, garching to kieferngarten",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from garching to perlach",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from garching to perlach",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how to get from bonnerplatz to freimann",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in nordfriedhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next train in m 00fcnchner freiheit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "connection from hauptbahnhof to odeonsplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how do i get from olympia einkaufszentrum to hauptbahnhof",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "when is the next bus in garching forschungszentrum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "how can i get from garching to marienplatz",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "from garching to studentenstadt",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with Hillary's sister",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my current location to my father",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my current location with Jim",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my location to my husband",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my location",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Always share my location with Lori",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with my boyfriend until I get home",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my current location to Anna",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with Steve for 3 days",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location to mum until I get to school",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with my office manager until noon",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with my Uber driver",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with Robert for the next 10 min",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my location with Jo until 8pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my current location",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my current location to the friends I'm meeting with",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the best hotel between Soho Grand and Paramount Hotel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the cheapest between the two restaurants the closest to my hotel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the closest between Jo's and Lori's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is my Airbnb closer than John's hotel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is The View more expensive than Masa",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the best between Le Bain and Marquee",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is Vertigo Sky Lounge more expensive than the bar I usually go to in New York",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I'd like to know whether Galli is more expensive than Rao's",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is my favorite bar better than the Donut Pub",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is Waldorf Astoria more luxurious than the Four Seasons",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the cheapest place between my favorite bar and Employees Only",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is my hotel in NYC for this week better than the hotel I stayed in when I was in Chicago",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is Soho Grand better than Paramount",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the cheapest place between Galli and The Smile",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is Three Dots and a Dash cheaper than Lost Lake",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is the closest theatre between Belasco Theatre and Majestic Theatre",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is the most expensive restaurant between Per Se and Rao's",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Which restaurant is the cheapest, Shake Shack or Five Guys ",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is the cheapest restaurant between Balthazar and Lombardi's",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me photos of the bar I'm going to for Rand's birthday",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Does the View has reserved parking",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How much is it to go to the top of Empire State Building",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Give me the phone number of the place I'm going to today",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "When is Rao's the most crowded",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the phone number of the Dead Rabbit",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a parking at my hotel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How crowded is Per Se right now",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What time does Pouring Ribbons open tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How crowded is the bar near my place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there wifi at the coffee place where I'm meeting with John",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the address of the place where I was yesterday night",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is the Swan Oyster Depot cash-only",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a wifi at The Smile",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can I pay by credit card at Boom Boom Room",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the phone number of my hotel in Chicago next month",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is Pates Et Traditions cash only",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Are there good tips to know when going to the Modern",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the price range for a dinner at Galli",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How far is Frying Pan from the Highline Ballroom",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Who is playing tonight at the Madison Square Garden",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's planned at Slim's tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me photos of Mondrian Soho",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What time does Employees Only close",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want to see photos of the place we're going to tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's happening this week at Smalls Jazz Club",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a children's menu at The Standard Grill",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the Butcher's Daughter's menu",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Give me the address of the biggest Wallmart in Boston area",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Where's Irving Plaza located",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How expensive is the best French restaurant near work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How far is the NoMad Bar",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How much does it cost to go to Disneyland",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How far am I from the Guggenheim museum",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there wifi at my Airbnb in London next week end",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Are there activities for children at Hard Rock Cafe",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Does the Butcher's Daughter serve vegetarian food only",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can I park at Gershwin Theatre",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Give me the address of State Grill and bar",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the menu of the restaurant I booked for tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What are the opening hours of Please Don't Tell",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's Lori's home address",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Where can I get tickets for a concert at Blue Note",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Are there some tips to know when going to Battery Park",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How much is a dinner at La Chine",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Give me Steve's address in Manhattan",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Does Cafe Gitane have wifi",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's today's menu at The Water Club",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "When is it the quietest at Good Luck bar",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there valet parking at Kang Ho Dong Baekjeong",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the cheapest cocktail bar near the hotel my sister stays in",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a restaurant similar to the one I went to yesterday evening",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the closest restaurants with all you can eat buffets",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a 3 stars restaurant in Los Angeles",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want to eat some fried chicken. Any suggestions",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the closest pizza restaurant around here",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the top 5 French restaurants in Manhattan",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Where can I eat the best burger in Soho",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me veggie restaurants nearby",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a salad bar I can go to for my lunch meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the best irish pub in hell's kitchen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find a store near Sia's place where I can buy champagne",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a place similar to Per Se in Williamsburg",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find the top 3 family attractions in Hollywood not far from Angie's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find the best restaurants near my airbnb that serve brunch all day",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a romantic restaurant that serves good expensive wine near my girlfriend's work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the best museums to visit near my London Airbnb",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a brunch spot in Lower Manhattan",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a coffee place similar to Starbucks that has gluten free food",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me the cheapest seafood restaurant near the Golden Bridge",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a place that sells burritos in South Harlem",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What are the fanciest clubs in New York",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Where is the nearest Starbucks",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a good expensive japanese restaurant near work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find a good fried chicken restaurant that is not a fast food",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me the closest theatre for tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the parks with swings and pony rides around my aunt's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me the finest sushi restaurant in the area of my next meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me a table for four for dinner tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for today's lunch at Eggy's Diner for 3 people",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at a restaurant near Times Square for 2 people tomorrow night",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for friday 8pm for 2 people at Katz's Delicatessen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at Joan's on Third for my family reunion on Saturday",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I'd like a table in a peaceful restaurant around Times Square",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at Seven Hills for 6 people with a nice view",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for 6 people at Mr Donahue's for tomorrow's lunch",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a restaurant for 6 near my morning meeting tomorrow at 1pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want reservations to grab brunch for 5 in hells kitchen tomorrow",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for Sophie and me at the Red Lobster tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for 3 people at a restaurant that serve tapas and wine for tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table near my London hotel next Wednesday evening",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book me a table for 8:45pm at a restaurant with wifi near my Airbnb",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Figure out if I can get a reservation at Ma Peche after the concert",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for four people at Tapestry for 9pm tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a spot at Ippudo for lunch",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at the best chinese restaurant in town for today's lunch",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a restaurant for brunch next Sunday",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book me a table for 2 people at the sushi place next to the show tomorrow night",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Make a reservation for 4 people for today's lunch at Daniel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for four people at Mondrian Soho for 8pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a table at Din Tai Fung for the 4th of December at 12:30",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a table at a restaurant nearby that is not too crowded for tomorrow evening",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find me an outdoor table at Five leaves for 3",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a table at Delmonico's next monday at 8pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "We are a party of 4 people and we want to book a table at Seven Hills for sunset",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need reservations at Quince at 9:30",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Make a reservation at Delmonico's on Saturday 8pm for 10 people",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at an italian restaurant nearby for dinner with 5 people",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at the nearest sushi restaurant for 2 for 1pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book me a table for 4 at Delmonico's around 8pm this friday",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there a table for boozy brunch at around 11 nearby",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Need a table for lunch to eat steak near penn station",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a table at a restaurant near Emily's place for tomorrow 9pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for 5 people at the restaurant I'm used to going to every week",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Make a reservation for breakfast at Batter & Berries tomorrow",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a place near chelsea with good brunch cocktails tomorrow at 10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for two people at a restaurant near work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Table for a group of 12 near west village tomorrow go",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want a reservation for 5 at Alinea",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Make a reservation for 4 people for today's lunch at a Starbucks nearby",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a table at a good deli near Mission Dolores Park for lunch",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Please book a table at Delmonico's this evening for 3 at 8pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need a reservation for five people at Galli for friday night",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can you make a reservation at a lebanese restaurant nearby, for lunch, party of 5",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "See if there's a table outside for noon at that fried chicken restaurant I like",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at Chops Lobster Bar for 5 people at 7:30pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want to find a reservation at an old red sauce joint at 6",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for 3 people at the restaurant I went to last week",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Make a reservation for 3 at the finest restaurant in the area where I was yesterday afternoon",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want a table in a good japanese restaurant near Trump tower",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Table for two at Nobu New York tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at The Standard Grill for four people for the day after tomorrow at 8:30pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book for 4 people at Per Se for Tuesday evening",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want a table for friday 8pm for 2 people at Katz's Delicatessen",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Need a table for 6",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want a reservation to get drinks after class tomorrow for 10",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at an American restaurant for Thanksgiving",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at Galli for 6 people tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book for 4 at Nobu for tomorrow evening",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for four people at La Chine for the 11th at 8pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table at Saddle Peak Lodge for my diner with friends tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can I have a table at the Russian Tea Room for 4pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for 8 at Tavern on the Green for 8 pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Need a table for 12 in 3 hours",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a table for me and my girlfriend in a romantic restaurant for Valentine's day",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Need a reservation for brunch for 5 in williamsburg near the bridge",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book me and my sister a spot at the milk bar place near the hotel she stays at in midtown",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book me a table for 4 at Delmonico's",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get a taxi to Emmit's Irish Pub",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me a ride to the airport",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Order a taxi for tomorrow 8am",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get a cab at my place right now",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Order a taxi",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need a taxi for 6 to go to Audrey and Sam's wedding",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book an Uber to my next meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need a taxi to catch my flight tomorrow morning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a cab",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a taxi to go to Sebastian's",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Find a taxi",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need a cab to go to work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need a taxi in 5 minutes at 36 5th avenue",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book an Uber to home",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can you find me a ride at this hour",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Order a cab for 6 people",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need an Uber right now",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book me a ride at my current location",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Order a cab at my mother's place to go to the LA stadium",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get an Uber to go to my dinner tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Book a Lyft car to go to 33 greene street",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want a taxi right now",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there any Uber around",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get a taxi to the nearest japanese restaurant",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Order a cab at Shake Shack to go to the Empire State Building",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get a Lyft car at Scott's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I go to Montauk avoiding tolls",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Directions to Disneyworld avoiding traffic",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the way to go to 33 Greene Street",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Give me directions to my parents' place avoiding toll roads",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me directions to my next meeting avoiding traffic",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Quickest directions to go pick up my son at soccer practice",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me directions to my yoga retreat avoiding the highway",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Bicycling directions to Millenium park",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Directions to La Guardia airport using Waze",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Cycling directions to Chelsea Market",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Cycling directions to my surf lesson at 10am",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the fastest itinerary to my Airbnb on a Friday night",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Driving directions to Tavern on the Green",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Transit directions to Barcelona Wine Bar",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Navigate to Palo Alto avoiding traffic",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Directions to JFK airport at 7am",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How do I go back home",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Walking directions to my Christmas party with Citymapper",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me directions to John's place if I leave at 6pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Walking directions from home to my Halloween party stopping by a wine store",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Directions to Tulsa with road 66",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the way to go to work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Give me transit directions from Grand Central to Brooklyn bridge",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Navigate me to Empire State Building using the shortest way",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me walking directions to MOMA",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Get me directions to Las Vegas avoiding toll roads",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me directions to Jersey City avoiding the highway",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the directions from the LA County Museum to Santa Monica",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Directions to my beach house avoiding tolls",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me directions to my hotel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the fastest itinerary to go to Williamsburg",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Fastest way to go to my next meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Directions to Joe's pub",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want to go to Boston with the quickest itinerary",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the way to Rand's birthday party by car",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my ETA with Mary Jane",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my ETA to the guy I'm meeting with",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my time of arrival with my Airbnb host",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my arrival time with Juan Carlos",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my ETA with Jo",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my estimated time of arrival with Lily",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my time of arrival to Nina",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Tell my friends what time I'll get there",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share with Franz my ETA",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send a message to John to tell him when I get there",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my ETA to my girlfriend",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Tell Valery how long it's gonna take to join her",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my ETA with the guy who just called me",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my ETA",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my ETA with my data scientist",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my estimated time of arrival with my mother",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send a message to Michael with my ETA",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Share my ETA with the Snips team",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my ETA to the girl I'm supposed to have dinner with",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send a message to Montgomery with my arrival time",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send my ETA to the guests of my apartment",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Send a message to my boss with my ETA",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Should I expect traffic from here to Kennedy international airport",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Any traffic problems to go to my dinner",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Any accidents from my Airbnb to Golden Gate Bridge",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there traffic from work to gym",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there traffic on my way to the gym",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How's traffic to go to my hotel",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How's the road on the 11th avenue",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want to know if there is traffic to go to my upcoming meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there traffic jam on 6th avenue",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Any accidents to expect to go to my cousin's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How's the traffic from here to Jo's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there traffic on 8th avenue and west 14th street",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Shoud I expect traffic between broadway and prince street",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there traffic on the US 50 portion I'm going to take to go to my client meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Are there any accidents from home to work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Should I expect any traffic to go meet my friends tonight",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there traffic jam from here to Brooklyn bridge",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How's the traffic from here to Central Park",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is the road to work congested",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is there any traffic on US 20",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the forecast for New Orleans",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Will it be cloudy at my facebook event",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like at my parents'",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is the weather good for a walk today",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it cold outside ",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it going to rain tomorrow",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like at Jo's place right now",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can I walk to my next meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the weather forecast for my upcoming trip to Los Angeles",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Will it rain in the next 30 minutes",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like in Paris, New York and Chicago",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather forecast for the rest of the week",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like from New York to Boston",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "How windy will it be tomorrow",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Should I have an umbrella with me tomorrow",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like at Jo's place this afternoon",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can I go hiking this afternoon",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What is the temperature tomorrow morning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it cold outside",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Should I take an umbrella to walk to my dinner",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like from Home to Jo's place",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like in 3 days",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like from 8am to 2pm in Central Park",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like tomorrow morning",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Can I take my bike to go to work today",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like in London next week",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it windy today",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like at work",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it going to be sunny next week",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I want the weather in Paris",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "It is a beautiful day for a walk",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's it like outside",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like when I land in Paris",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Is it raining right now",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like at my Airbnb this week end",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Whats the weather like in Bordeaux",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What's the weather like near my upcoming event",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Will it rain tomorrow near my all day event",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "I need the weather at Jo's place around 8 pm",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "What will the weather be like when I get out of my afternoon meeting",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Show me the forecast for my upcoming weekend",
+				"intent": "unknown"
+			},
+			{
+				"id": 1,
+				"text": "Should I take a rain coat today",
+				"intent": "unknown"
+			}
+		],
+		"others": [
+			{
+				"id": 1,
+				"text": "Yes",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Yep",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Absolutely",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Yeah",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "That's it",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Totally yes",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Totally",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Yeah just do that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Okay",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "ok",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "okay right",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Let's go for that yes",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "I confirm",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Sure",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "I'll go for that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Perfect",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Yes I approve",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Yes i totally approve",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "I totally approve",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Yes i approve totally",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "I approve totally",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Should do it",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Should be enough thanks",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Should be enough thank you",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Ideally yes",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Ideally",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Great",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "Sounds good",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "right",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "agreed",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "correct",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "i'm ok with that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "i'm okay with that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "i am ok with that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "i am okay with that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "im ok with that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "im okay with that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "that is good",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "i want that",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "that is fine",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "that is correct",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "that is what i want",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "you understood me",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "that is right",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "its fine",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "good",
+				"intent": "confirm"
+			},
+			{
+				"id": 1,
+				"text": "i want that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i desire that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i agree",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i want that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is fine",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is what i want",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "you understood me",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is right",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is what i mean",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "want that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "im ok with that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "ok its good",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "im good with that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "ok its fine",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "is good",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "it is fine",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "im ok with this",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "im good with this",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "that's not right",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "that's not good",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "incorrect",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "don't do that",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "Sounds bad to me",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "Sounds not good to me",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "Sounds wrong",
+				"intent": "deny"
+			},
+			{
+				"id": 1000000,
+				"text": "Sounds wrong to me",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "No",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "No not that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Nope",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Nah",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Not really",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Absolutley not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "No it's not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Not what I wanted",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "No I would prefer not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "I would prefer not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Not necessary",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "I would prefer not to",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Just don't do that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "No you can't",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "This would be probably a bad idea",
+				"intent": "deny"
+			},
+			{
+				"id": 2,
+				"text": "I deny it",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "No I refuse",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Definitely not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Surely not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Ideally no",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Sounds bad",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "Sounds bad to me",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "its not ok",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it's not ok",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it is not ok",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "its not alright",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it's not alright",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it is not alright",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "its not okay",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it's not okay",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it is not okay",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "its not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it's not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 15,
+				"text": "it is not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "no it's not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "no its not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "no it is not",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i don't want that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i do not want that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i don't want it",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "i do not want it",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "didnt meant that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "did not meant that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "didnt meant it",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "did not meant it",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that's not what i want",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is not what i want",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "thats not what i want",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that's not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "thats not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that's wrong",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "it's not good",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "it is not good",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "its not good",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "it's not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "it is not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "its not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is wrong",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "dont want that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "dont desire that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "dont agree on that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "didnt meant that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "dont mean that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "not what i want",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "not correct",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "wrong",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "bad",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "incorrect",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "im not ok with that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "not good",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "its bad",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is bad",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "that is wrong",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "im not good with that",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "ok its not fine",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "definitely no",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "not good for me",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "its not ok",
+				"intent": "deny"
+			},
+			{
+				"id": 1,
+				"text": "its not correct",
+				"intent": "deny"
+			}
+		]
+	}
+}
