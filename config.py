@@ -1,7 +1,7 @@
 import os
 class TrainingConfig:
     REPO_ROOT = os.path.dirname(__file__)
-    DATASET_CLEANED_PATH = os.path.join(REPO_ROOT,'data/training/slot_filling_datasets/train_cleaned_intents.json')
+    DATASET_CLEANED_PATH = os.path.join(REPO_ROOT,'train_cleaned_intents.json')
     DATASET_PATH = os.path.join(REPO_ROOT,'data/training/slot_filling_datasets/train_intents.json')
     GDRIVE_MOUNT_PATH = '/content/gdrive/'
     GDRIVE_PATH = GDRIVE_MOUNT_PATH+'My Drive/'

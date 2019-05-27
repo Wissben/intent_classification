@@ -12,6 +12,12 @@ from config import TrainingConfig as config
 
 
 def create_slotless_entries(name):
+    """
+
+    :param name: filename
+    :type name: str
+    :return:
+    """
     with open(name + '.in', 'r') as fd:
         lines = [line[:-1].lower() for line in fd.readlines()]
         instances = [{
@@ -29,6 +35,19 @@ def create_slotless_entries(name):
         return instances
 
 def train_batch_generator(data, embedder, steps, batch_size=1, padded=False, sample_weights=None,dicts=None):
+    """
+    Generator that yields batches of data of same length from an object like instance
+    :param data: the instances of data
+    :type data: dict
+    :param embedder: word2vec model used for word embedding
+    :type embedder: Word2VecKeyedVectors
+    :param steps:
+    :param batch_size:
+    :param padded:
+    :param sample_weights:
+    :param dicts:
+    :return:
+    """
     random.shuffle(data)
     index = 1
     while True:
