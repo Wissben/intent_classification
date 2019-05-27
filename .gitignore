@@ -1,0 +1,10 @@
+data/traning/dummy_data
+
+models/deps_parser
+models/word2vec
+venv_intents
+encoder_decoder_training.py
+.idea*
+.ipynb*
+.vscode
+*.pyc
