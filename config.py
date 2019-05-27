@@ -1,7 +1,7 @@
 class TrainingConfig:
     REPO_ROOT = '/content/intent_classification/'
-    DATASET_CLEANED_PATH = REPO_ROOT+'data/traning/slot_filling_datasets/train_intents.json.json'
-    DATASET_PATH = REPO_ROOT+'data/traning/slot_filling_datasets/slot_filling_datasets/train_intents.json'
+    DATASET_CLEANED_PATH = REPO_ROOT+'data/training/slot_filling_datasets/train_intents.json.json'
+    DATASET_PATH = REPO_ROOT+'data/training//slot_filling_datasets/train_intents.json'
     GDRIVE_MOUNT_PATH = '/content/gdrive/'
     GDRIVE_PATH = GDRIVE_MOUNT_PATH+'My Drive/'
     GDRIVE_TMP_MODELS_PATH = '/content/gdrive/My Drive/Models_NLU/'

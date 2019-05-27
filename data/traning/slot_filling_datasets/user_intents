@@ -1,9 +1,0 @@
--Create_file_desire , possible params: file_name and/or parent_directory or nothing 
--Delete_file_desire , possible params: file_name and/or parent_directory or nothing
--Open_file_desire , possible params: file_name and/or parent_directory or nothing
--Close_file_desire , possible params: file_name and/or parent_directory or nothing
--Change_directory_desire , possible params: new_directory
-inform , possible params: parent_directory and/without file_name
-inform , possible params: file_name
--deny
--confirm

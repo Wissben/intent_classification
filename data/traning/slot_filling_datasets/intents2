@@ -1,9 +1,0 @@
-Create_file_desire : file_name, parent_directory, is_file //is_file indicates if create file or create directory
-Delete_file_desire : file_name, parent_directory, is_file //is_file indicates if create file or create directory
-Change_directory_desire: new_directory
-inform: file_name, parent_directory
-request: file_name, directory, slot // slot indicates what is requested for example paths given a file_name or file_names given a directory
-Copy/Move_file_desire: origin, dest, file_name
-rename_file_desire: old_name, new_name
-
-
