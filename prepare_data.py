@@ -152,6 +152,5 @@ if __name__ == '__main__':
     Variables.INDEX2INTENT, \
     Variables.TAG2OH, \
     Variables.INDEX2TAG = load_dicts(
-        model_name=res.model_name,
         encoder_output_dim=res.dims[0],
         encoder_dense_units=res.dims[1])
