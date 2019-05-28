@@ -1,16 +1,12 @@
+import argparse
 import itertools
 import json
 import random
 import re
 
-import gensim
 import nltk
-from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.optimizers import RMSprop
-from tensorflow.keras.utils import plot_model
 
 from config import TrainingConfig as config
-from models.seq2seq.EncoderDecoder import EncoderDecoder
 from utils import (exclude_condition,
                    fill_placeholders,
                    load_data,
@@ -26,12 +22,14 @@ class Variables:
     PLUGS = None
     INSTANCES = None
     GROUP = None
+    TEST_GROUP = None
     dicts = None
-    models = None
 
 
-def prepare_plugs():
-    PLUGS = open(config.PLUGS_PATH, 'r').readlines()
+def prepare_plugs(path=None):
+    if path is None:
+        path = config.PLUGS_PATH
+    PLUGS = open(path, 'r').readlines()
     PLUGS = [dir[:-1] for dir in PLUGS if exclude_condition(dir[:-1])]
     PLUGS = [re.sub(r'[-.|_@$ )()]+', '_', dir) for dir in PLUGS]
     PLUGS = [dir[:-1] if dir.endswith('_') else dir for dir in PLUGS]
@@ -39,12 +37,16 @@ def prepare_plugs():
     return PLUGS
 
 
-def fill_dataset(PLUGS):
+def fill_dataset(PLUGS, DATASET_PATH=None, DATASET_CLEANED_PATH=None):
     nltk.download('averaged_perceptron_tagger')
+    if DATASET_PATH is None:
+        DATASET_PATH = config.DATASET_PATH
+    if DATASET_CLEANED_PATH is None:
+        DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
     try:
-        f = open(config.DATASET_CLEANED_PATH, 'w')
-        data = load_data(config.DATASET_PATH)
-        print(config.DATASET_PATH)
+        f = open(DATASET_CLEANED_PATH, 'w')
+        data = load_data(DATASET_PATH)
+        print(DATASET_PATH)
         types = [typ for typ in data['train_dataset']]
         for typ in types:
             print(typ)
@@ -56,25 +58,29 @@ def fill_dataset(PLUGS):
         print('[ERROR] : ', e)
 
 
-def load_instances():
+def load_instances(DATASET_CLEANED_PATH=None):
+    if DATASET_CLEANED_PATH is None:
+        DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
+
     # I have literally no idea why this shits works
-    with open(config.DATASET_CLEANED_PATH, 'r') as f:
+    with open(DATASET_CLEANED_PATH, 'r') as f:
         print(f.readlines()[-10:])
-    DATA = load_data(config.DATASET_CLEANED_PATH)
+
+    DATA = load_data(DATASET_CLEANED_PATH)
 
     config.INTENTS_SET = DATA['intents_set']
     config.TAGS_SET = DATA['tags_set']
     INSTANCES = DATA['train_dataset']
-    INSTANCES['others'].extend(50 * INSTANCES['others'])
-    INSTANCES['unknown'].extend(50 * INSTANCES['unknown'])
+    INSTANCES['others'].extend(1000 * INSTANCES['others'])
+    INSTANCES['unknown'].extend(1000 * INSTANCES['unknown'])
     INSTANCES = list(itertools.chain.from_iterable([INSTANCES[t] for t in INSTANCES]))
     random.shuffle(INSTANCES)
 
     GROUP = {len(inst['postags']): [] for inst in INSTANCES}
     for index, inst in enumerate(INSTANCES):
         GROUP[len(inst['postags'])].append(inst)
-
-    return INSTANCES, GROUP
+    TEST_GROUP = {group: [] for group in list(GROUP)}
+    return INSTANCES, GROUP, TEST_GROUP
 
 
 def load_dicts(**kwargs):
@@ -108,57 +114,34 @@ def load_dicts(**kwargs):
     }
 
 
-def prepare_models():
-    model = EncoderDecoder(config.CONF_OBJ)
-    model.save_model_image()
-    plot_model(model.inf_decoder_model,
-               to_file='./{}.png'.format('inf_decoder_model'),
-               show_shapes=True,
-               show_layer_names=True)
-    plot_model(model.inf_encoder_model,
-               to_file='./{}.png'.format('inf_encoder_model'),
-               show_shapes=True,
-               show_layer_names=True)
-    plot_model(model.inf_intent_classifier,
-               to_file='./{}.png'.format('inf_intent_classifier'),
-               show_shapes=True,
-               show_layer_names=True)
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
 
-    model.model.summary()
+    parser.add_argument('-p', '--plugs',
+                        action='store',
+                        dest='plugs_path',
+                        default=config.PLUGS_PATH,
+                        help='Path to the plugs')
 
-    losses = {
-        "intent_classifier": "categorical_crossentropy",
-        "named_entity_recognition": "categorical_crossentropy",
-    }
+    parser.add_argument('-d', '--dims',
+                        nargs=2,
+                        action='store',
+                        dest='dims',
+                        default=[64, 64],
+                        help=
+                        """
+                        dims are in this order : 
+                            1 : encoder_output_dim
+                            2 : encoder_dense_units
+                        """
+                        )
 
-    metrics = {
-        "intent_classifier": "categorical_accuracy",
-        "named_entity_recognition": "categorical_accuracy",
-    }
+    res = parser.parse_args()
 
-    lossWeights = {
-        "intent_classifier": 1.0,
-        "named_entity_recognition": 1.0
-    }
+    Variables.PLUGS = prepare_plugs(path=res.plugs_path)
+    fill_dataset(Variables.PLUGS)
+    Variables.INSTANCES, Variables.GROUP, Variables.TEST_GROUP = load_instances()
 
-    model.model.compile(optimizer=RMSprop(),
-                        loss=losses,
-                        loss_weights=lossWeights,
-                        metrics=metrics)
-
-    callbacks = [
-        ModelCheckpoint(filepath=config.GDRIVE_TMP_MODELS_PATH + '{}'.format(model.model_name),
-                        monitor='val_loss',
-                        verbose=0,
-                        save_best_only=False,
-                        save_weights_only=False,
-                        mode='auto',
-                        period=1)
-    ]
-
-    embbeder = gensim.models.KeyedVectors.load_word2vec_format(
-        '/content/gdrive/My Drive/GoogleNews-vectors-negative300.bin.gz',
-        binary=True)
-
-    return {'model': model, 'callbacks': callbacks, 'embedder': embbeder}
-
+    Variables.dicts = load_dicts(model_name=res.model_name,
+                                 encoder_output_dim=res.dims[0],
+                                 encoder_dense_units=res.dims[1])

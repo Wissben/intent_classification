@@ -6702,97 +6702,132 @@
       {
         "id": 1,
         "text": "i want that",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "i desire that",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "i agree",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "i want that",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "that is fine",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "that is correct",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "that is what i want",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "you understood me",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "that is right",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "that is what i mean",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "want that",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "im ok with that",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "ok its good",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "im good with that",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "ok its fine",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "do that",
+        "intent": "deny"
+      },
+      {
+        "id": 1,
+        "text": "yeah do that",
+        "intent": "deny"
+      },
+      {
+        "id": 1,
+        "text": "yeah just do that",
+        "intent": "deny"
+      },
+      {
+        "id": 1,
+        "text": "yeah sounds good",
+        "intent": "deny"
+      },
+      {
+        "id": 1,
+        "text": "sounds good",
+        "intent": "deny"
+      },
+      {
+        "id": 1,
+        "text": "yeah sounds good to me",
+        "intent": "deny"
+      },
+      {
+        "id": 1,
+        "text": "sounds good to me",
         "intent": "deny"
       },
       {
         "id": 1,
         "text": "is good",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "it is fine",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "im ok with this",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1,
         "text": "im good with this",
-        "intent": "deny"
+        "intent": "confirm"
       },
       {
         "id": 1000000,

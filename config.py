@@ -69,4 +69,26 @@ class TrainingConfig:
     }
 
     BATCH_SIZE = 128
-    VAL_RATIO = 0.25
+    VAL_RATIO = 0.15
+    TEST_RATIO = 0.25
+
+    TEST_TEXTS = [
+        'perfect do that',
+        'could you just do it man',
+        'could you move aaa to baaadd',
+        'yes please',
+        'show me the home directory',
+        'go to the home directory',
+        'show the file named code.py',
+        'delete home diretory',
+        'go to the java project folder',
+        'sounds good',
+        'what the weather like today',
+        'rename the whole to dd',
+        'Yeah just do that',
+        'hey open the home folder',
+        'change name of old to new',
+        'close the current folder',
+        'erase the current folder',
+        'Remove the current folder'
+    ]
