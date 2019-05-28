@@ -1,6 +1,7 @@
 import argparse
 import itertools
 import json
+import os
 import random
 import re
 
@@ -59,16 +60,16 @@ def save_dicts(out_path, DATASET_CLEANED_PATH=None):
         DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
     DATA = load_data(DATASET_CLEANED_PATH)
 
-    fd = open(out_path + '/intents_set', 'w')
+    fd = open(os.path.join(out_path,'intents_set.json'), 'w')
     json.dump(DATA['intents_set'],fd)
-    fd = open(out_path + '/tags_set', 'w')
+    fd = open(os.path.join(out_path,'tags_set.json'), 'w')
     json.dump(DATA['tags_set'],fd)
 
 
 def load_dicts(in_path):
-    fd = open(in_path + '/intents_set', 'r')
+    fd = open(os.path.join(in_path,'intents_set.json'), 'r')
     INTENTS_SET = json.load(fd)
-    fd = open(in_path + '/tags_set', 'r')
+    fd = open(os.path.join(in_path,'tags_set.json'), 'r')
     TAGS_SET = json.load(fd)
 
     POS2OH = create_postag_oh_dict(config.POSTAG_SET)
