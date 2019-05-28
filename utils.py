@@ -51,7 +51,7 @@ def train_batch_generator(data, embedder, steps, batch_size=1, padded=False, sam
     :type sample_weights: list
     :param dicts: set of data indexing dictionaries
     :param dicts: dict
-    :return:
+    :return: a tuple of inputs,outputs or inputs,outputs,sample_weights if sample_weight=True
     """
 
     random.shuffle(data)
@@ -82,6 +82,25 @@ def train_batch_generator(data, embedder, steps, batch_size=1, padded=False, sam
 
 
 def val_batch_generator(data, embedder, steps, batch_size=1, padded=False, sample_weights=None,dicts=None):
+    """
+    Generator that yields batches of data of same length from an object like instance
+    :param data: the instances of data
+    :type data: dict
+    :param embedder: word2vec model used for word embedding
+    :type embedder: Word2VecKeyedVectors
+    :param steps: number of steps per epochs
+    :type steps: int
+    :param batch_size: the size of one batch of data
+    :type batch_size: int
+    :param padded: to pad or not the data
+    :type padded; bool
+    :param sample_weights: an array like object of weights assosciated to each sample
+    :type sample_weights: list
+    :param dicts: set of data indexing dictionaries
+    :param dicts: dict
+    :return: a tuple of inputs,outputs or inputs,outputs,sample_weights if sample_weight=True
+    """
+
     random.shuffle(data)
     index = 1
     while True:
@@ -140,6 +159,15 @@ def val_batch_generator(data, embedder, steps, batch_size=1, padded=False, sampl
 
 
 def fetch_batch_from_data(batch_index, data, batch_size,embedder=None,dicts=None):
+    """
+    Function that maps a batch index and batch size to a specific page in the dataset
+    :param batch_index: index of the batch
+    :param data: the data source
+    :param batch_size: the size of one batch of data
+    :param embedder: the word2vec model
+    :param dicts: set of data indexing dictionaries
+    :return: a tuple of 4 batches sets for the inputs/outputs of the model
+    """
     base = (batch_index - 1) * batch_size
     offset = base + batch_size
     if (offset) > len(data):

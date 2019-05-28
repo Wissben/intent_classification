@@ -22,6 +22,8 @@ from utils import (exclude_condition,
                    create_index_to_tag,
                    training_loop)
 
+import argparse
+
 
 class Variables:
     PLUGS = None
@@ -165,9 +167,11 @@ def prepare_models():
 
 
 if __name__ == '__main__':
+
     Variables.PLUGS = prepare_plugs()
     print(Variables.PLUGS)
     # fill_dataset(Variables.PLUGS)
     Variables.INSTANCES, Variables.GROUP = load_instances()
     Variables.dicts = load_dicts(model_name='test', encoder_output_dim=256)
     Variables.models = prepare_models()
+
