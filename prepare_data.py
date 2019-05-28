@@ -60,9 +60,9 @@ def save_dicts(out_path, DATASET_CLEANED_PATH=None):
     DATA = load_data(DATASET_CLEANED_PATH)
 
     fd = open(out_path + 'intents_set', 'w')
-    json.dump(fd, DATA['intents_set'])
+    json.dump(DATA['intents_set'],fd)
     fd = open(out_path + 'tags_set', 'w')
-    json.dump(fd, DATA['tags_set'])
+    json.dump(DATA['tags_set'],fd)
 
 
 def load_dicts(in_path):
