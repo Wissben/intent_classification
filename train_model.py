@@ -10,7 +10,6 @@ from models.seq2seq.EncoderDecoder import EncoderDecoder
 from models.seq2seq.generators import train_batch_generator, val_batch_generator
 from prepare_data import load_dicts
 from prepare_data import load_instances
-from prepare_model import Variables as vt
 
 
 class Variables:
