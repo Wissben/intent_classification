@@ -16,7 +16,7 @@ class EncoderDecoder:
     Class implementation for the encoder decoder architecture
     """
 
-    def __init__(self, kwargs):
+    def __init__(self, **kwargs):
         """
         Must provide a dictionary containing the following keys/values :
         {_
@@ -29,7 +29,8 @@ class EncoderDecoder:
             'decoder_output_dim': n_tags,
         }
         """
-        self.__dict__ = kwargs
+        for arg in kwargs:
+            self.__setattr__(arg, kwargs[arg])
         self.build_model()
 
     def build_model(self):
@@ -184,6 +185,16 @@ class EncoderDecoder:
             root + '{}_inf_intent.h5'.format(top_model.model_name))
         top_model.inf_decoder_model.save(
             root + '{}_inf_decoder.h5'.format(top_model.model_name))
+
+    @staticmethod
+    def load_models_to_disk_static(self, root):
+        self.model = lm(root + '{}.h5'.format(self.model_name))
+        self.inf_encoder_model = lm(
+            root + '{}_inf_encoder.h5'.format(self.model_name))
+        self.inf_intent_classifier = lm(
+            root + '{}_inf_intent.h5'.format(self.model_name))
+        self.inf_decoder_model = lm(
+            root + '{}_inf_decoder.h5'.format(self.model_name))
 
     def load_models_to_disk(self, root):
         self.model = lm(root + '{}.h5'.format(self.model_name))

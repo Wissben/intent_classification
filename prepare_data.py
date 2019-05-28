@@ -20,14 +20,6 @@ from utils import (exclude_condition,
 
 class Variables:
     PLUGS = None
-    INSTANCES = None
-    GROUP = None
-    TEST_GROUP = None
-    POS2OH = None
-    INTENT2OH = None
-    INDEX2INTENT = None
-    TAG2OH = None
-    INDEX2TAG = None
 
 
 def prepare_plugs(path=None):
@@ -62,6 +54,27 @@ def fill_dataset(PLUGS, DATASET_PATH=None, DATASET_CLEANED_PATH=None):
         print('[ERROR] : ', e)
 
 
+def save_dicts(out_path, DATASET_CLEANED_PATH=None):
+    if DATASET_CLEANED_PATH is None:
+        DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
+    DATA = load_data(DATASET_CLEANED_PATH)
+
+    json.dump(open(out_path + 'intents_set.json', 'w'), DATA['intents_set'])
+    json.dump(open(out_path + 'tags_set.json', 'w'), DATA['tags_set'])
+
+
+def load_dicts(in_path):
+    INTENTS_SET = json.load(open(in_path + 'intents_set.json', 'r'))
+    TAGS_SET = json.load(open(in_path + 'tags_set.json', 'r'))
+    POS2OH = create_postag_oh_dict(config.POSTAG_SET)
+    INTENT2OH = create_intent_oh_dict(INTENTS_SET)
+    TAG2OH = create_tag_oh_dict(TAGS_SET)
+    INDEX2INTENT = create_index_to_intent(INTENTS_SET)
+    INDEX2TAG = create_index_to_tag(TAGS_SET)
+
+    return POS2OH, INTENT2OH, INDEX2INTENT, TAG2OH, INDEX2TAG
+
+
 def load_instances(DATASET_CLEANED_PATH=None):
     if DATASET_CLEANED_PATH is None:
         DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
@@ -72,8 +85,9 @@ def load_instances(DATASET_CLEANED_PATH=None):
 
     DATA = load_data(DATASET_CLEANED_PATH)
 
-    config.INTENTS_SET = DATA['intents_set']
-    config.TAGS_SET = DATA['tags_set']
+    json.dump(open(Variables.out_path + 'intents_set', 'w'), DATA['intents_set'])
+    json.dump(open(Variables.out_path + 'tags_set', 'w'), DATA['tags_set'])
+
     INSTANCES = DATA['train_dataset']
     INSTANCES['others'].extend(1000 * INSTANCES['others'])
     INSTANCES['unknown'].extend(1000 * INSTANCES['unknown'])
@@ -87,31 +101,6 @@ def load_instances(DATASET_CLEANED_PATH=None):
     return INSTANCES, GROUP, TEST_GROUP
 
 
-def load_dicts(**kwargs):
-    POS2OH = create_postag_oh_dict(config.POSTAG_SET)
-    INTENT2OH = create_intent_oh_dict(config.INTENTS_SET)
-    TAG2OH = create_tag_oh_dict(config.TAGS_SET)
-    INDEX2INTENT = create_index_to_intent(config.INTENTS_SET)
-    INDEX2TAG = create_index_to_tag(config.TAGS_SET)
-
-    n_intents = len(INTENT2OH)
-    n_tags = len(TAG2OH)
-    vector_size = 300  # w2v_model.vector_size
-    postag_vec_size = len(config.POSTAG_SET)
-
-    config.CONF_OBJ = {
-        'model_name': kwargs['model_name'] if 'model_name' in list(kwargs) else 'base',
-        'encoder_input_dim': vector_size + postag_vec_size,
-        'encoder_output_dim': kwargs['encoder_output_dim'] if 'encoder_output_dim' in list(kwargs) else 64,
-        'encoder_dense_units': kwargs['encoder_dense_units'] if 'encoder_dense_units' in list(kwargs) else 64,
-        'encoder_dense_output_dim': n_intents,
-        'decoder_input_dim': n_tags,
-        'decoder_output_dim': n_tags,
-    }
-
-    return POS2OH, INTENT2OH, INDEX2INTENT, TAG2OH, INDEX2TAG
-
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
@@ -121,18 +110,6 @@ if __name__ == '__main__':
                         default=config.PLUGS_PATH,
                         help='Path to the plugs')
 
-    parser.add_argument('-d', '--dims',
-                        nargs=2,
-                        action='store',
-                        dest='dims',
-                        default=[64, 64],
-                        help=
-                        """
-                        dims are in this order : 
-                            1 : encoder_output_dim
-                            2 : encoder_dense_units
-                        """
-                        )
     parser.add_argument('-b', '--build',
                         action='store',
                         dest='build',
@@ -140,18 +117,16 @@ if __name__ == '__main__':
                         type=bool,
                         help='To build or not the dataset')
 
+    parser.add_argument('-o', '--out',
+                        action='store',
+                        dest='out_path',
+                        default=config.REPO_ROOT,
+                        type=str,
+                        help='Where to store the indexes')
+
     res = parser.parse_args()
     print(res)
     Variables.PLUGS = prepare_plugs(path=res.plugs_path)
-    if res.build :
+    if res.build:
         fill_dataset(Variables.PLUGS)
-    Variables.INSTANCES, Variables.GROUP, Variables.TEST_GROUP = load_instances()
-
-    Variables.POS2OH, \
-    Variables.INTENT2OH, \
-    Variables.INDEX2INTENT, \
-    Variables.TAG2OH, \
-    Variables.INDEX2TAG = load_dicts(
-        model_name=res.model_name,
-        encoder_output_dim=res.dims[0],
-        encoder_dense_units=res.dims[1])
+    save_dicts(out_path=res.out_path)

@@ -1,17 +1,16 @@
 import os
+
+
 class TrainingConfig:
     REPO_ROOT = os.path.dirname(__file__)
     DATASET_CLEANED_PATH = os.path.join('train_cleaned_intents.json')
-    DATASET_PATH = os.path.join(REPO_ROOT,'data/training/slot_filling_datasets/train_intents.json')
+    DATASET_PATH = os.path.join(REPO_ROOT, 'data/training/slot_filling_datasets/train_intents.json')
     GDRIVE_MOUNT_PATH = '/content/gdrive/'
-    GDRIVE_PATH = GDRIVE_MOUNT_PATH+'My Drive/'
+    GDRIVE_PATH = GDRIVE_MOUNT_PATH + 'My Drive/'
     GDRIVE_TMP_MODELS_PATH = '/content/gdrive/My Drive/Models_NLU/'
     GDRIVE_MODELS_PATH = '/content/gdrive/My Drive/Models_NLU/best/'
 
-    PLUGS_PATH = os.path.join(REPO_ROOT,'data/training/slot_filling_datasets/plugs.in')
-
-    INTENTS_SET = list()
-    TAGS_SET = list()
+    PLUGS_PATH = os.path.join(REPO_ROOT, 'data/training/slot_filling_datasets/plugs.in')
 
     POSTAG_SET = {
         "''": 'Unknown',
@@ -56,16 +55,6 @@ class TrainingConfig:
         'WP': 'wh-pronoun who, what',
         'WP$': 'possessive wh-pronoun whose',
         'WRB': 'wh-abverb where, when'
-    }
-
-    CONF_OBJ = {
-        'model_name': 'base',
-        'encoder_input_dim': 0,
-        'encoder_output_dim': 64,
-        'encoder_dense_units': 64,
-        'encoder_dense_output_dim': 1,
-        'decoder_input_dim': 1,
-        'decoder_output_dim': 1,
     }
 
     BATCH_SIZE = 128
