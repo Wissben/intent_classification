@@ -151,7 +151,7 @@ if __name__ == '__main__':
                         type=str,
                         help='Indicates where the dataset resides')
 
-    parser.add_argument('-e', '--embedder',
+    parser.add_argument('-em', '--embedder',
                         nargs=1,
                         action='store',
                         dest='embedder_path',
