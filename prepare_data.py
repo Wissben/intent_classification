@@ -59,16 +59,16 @@ def save_dicts(out_path, DATASET_CLEANED_PATH=None):
         DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
     DATA = load_data(DATASET_CLEANED_PATH)
 
-    fd = open(out_path + 'intents_set', 'w')
+    fd = open(out_path + '/intents_set', 'w')
     json.dump(DATA['intents_set'],fd)
-    fd = open(out_path + 'tags_set', 'w')
+    fd = open(out_path + '/tags_set', 'w')
     json.dump(DATA['tags_set'],fd)
 
 
 def load_dicts(in_path):
-    fd = open(in_path + 'intents_set', 'r')
+    fd = open(in_path + '/intents_set', 'r')
     INTENTS_SET = json.load(fd)
-    fd = open(in_path + 'tags_set', 'r')
+    fd = open(in_path + '/tags_set', 'r')
     TAGS_SET = json.load(fd)
 
     POS2OH = create_postag_oh_dict(config.POSTAG_SET)
