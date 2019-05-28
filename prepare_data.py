@@ -133,11 +133,18 @@ if __name__ == '__main__':
                             2 : encoder_dense_units
                         """
                         )
+    parser.add_argument('-b', '--build',
+                        action='store',
+                        dest='build',
+                        default=True,
+                        type=bool,
+                        help='To build or not the dataset')
 
     res = parser.parse_args()
     print(res)
     Variables.PLUGS = prepare_plugs(path=res.plugs_path)
-    fill_dataset(Variables.PLUGS)
+    if res.build :
+        fill_dataset(Variables.PLUGS)
     Variables.INSTANCES, Variables.GROUP, Variables.TEST_GROUP = load_instances()
 
     Variables.POS2OH, \
