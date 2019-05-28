@@ -59,13 +59,18 @@ def save_dicts(out_path, DATASET_CLEANED_PATH=None):
         DATASET_CLEANED_PATH = config.DATASET_CLEANED_PATH
     DATA = load_data(DATASET_CLEANED_PATH)
 
-    json.dump(open(out_path + 'intents_set.json', 'w'), DATA['intents_set'])
-    json.dump(open(out_path + 'tags_set.json', 'w'), DATA['tags_set'])
+    fd = open(out_path + 'intents_set', 'w')
+    json.dump(fd, DATA['intents_set'])
+    fd = open(out_path + 'tags_set', 'w')
+    json.dump(fd, DATA['tags_set'])
 
 
 def load_dicts(in_path):
-    INTENTS_SET = json.load(open(in_path + 'intents_set.json', 'r'))
-    TAGS_SET = json.load(open(in_path + 'tags_set.json', 'r'))
+    fd = open(in_path + 'intents_set', 'r')
+    INTENTS_SET = json.load(fd)
+    fd = open(in_path + 'tags_set', 'r')
+    TAGS_SET = json.load(fd)
+
     POS2OH = create_postag_oh_dict(config.POSTAG_SET)
     INTENT2OH = create_intent_oh_dict(INTENTS_SET)
     TAG2OH = create_tag_oh_dict(TAGS_SET)
@@ -84,9 +89,6 @@ def load_instances(DATASET_CLEANED_PATH=None):
         print(f.readlines()[-10:])
 
     DATA = load_data(DATASET_CLEANED_PATH)
-
-    json.dump(open(Variables.out_path + 'intents_set', 'w'), DATA['intents_set'])
-    json.dump(open(Variables.out_path + 'tags_set', 'w'), DATA['tags_set'])
 
     INSTANCES = DATA['train_dataset']
     INSTANCES['others'].extend(1000 * INSTANCES['others'])
