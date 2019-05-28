@@ -23,7 +23,11 @@ class Variables:
     INSTANCES = None
     GROUP = None
     TEST_GROUP = None
-    dicts = None
+    POS2OH = None
+    INTENT2OH = None
+    INDEX2INTENT = None
+    TAG2OH = None
+    INDEX2TAG = None
 
 
 def prepare_plugs(path=None):
@@ -105,13 +109,7 @@ def load_dicts(**kwargs):
         'decoder_output_dim': n_tags,
     }
 
-    return {
-        'POS2OH': POS2OH,
-        'INTENT2OH': INTENT2OH,
-        'INDEX2INTENT': INDEX2INTENT,
-        'TAG2OH': TAG2OH,
-        'INDEX2TAG': INDEX2TAG
-    }
+    return POS2OH, INTENT2OH, INDEX2INTENT, TAG2OH, INDEX2TAG
 
 
 if __name__ == '__main__':
@@ -137,11 +135,16 @@ if __name__ == '__main__':
                         )
 
     res = parser.parse_args()
-
+    print(res)
     Variables.PLUGS = prepare_plugs(path=res.plugs_path)
     fill_dataset(Variables.PLUGS)
     Variables.INSTANCES, Variables.GROUP, Variables.TEST_GROUP = load_instances()
 
-    Variables.dicts = load_dicts(model_name=res.model_name,
-                                 encoder_output_dim=res.dims[0],
-                                 encoder_dense_units=res.dims[1])
+    Variables.POS2OH, \
+    Variables.INTENT2OH, \
+    Variables.INDEX2INTENT, \
+    Variables.TAG2OH, \
+    Variables.INDEX2TAG = load_dicts(
+        model_name=res.model_name,
+        encoder_output_dim=res.dims[0],
+        encoder_dense_units=res.dims[1])
