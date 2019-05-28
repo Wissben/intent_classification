@@ -136,7 +136,7 @@ if __name__ == '__main__':
     parser.add_argument('-b', '--build',
                         action='store',
                         dest='build',
-                        default=True,
+                        default=False,
                         type=bool,
                         help='To build or not the dataset')
 
@@ -152,5 +152,6 @@ if __name__ == '__main__':
     Variables.INDEX2INTENT, \
     Variables.TAG2OH, \
     Variables.INDEX2TAG = load_dicts(
+        model_name=res.model_name,
         encoder_output_dim=res.dims[0],
         encoder_dense_units=res.dims[1])
