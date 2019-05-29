@@ -7499,8 +7499,380 @@
       },
       {
         "id": 1,
+        "text": "Show me the forecast for my upcoming weekend",
+        "intent": "unknown"
+      },
+      {
+        "id": 1,
         "text": "Should I take a rain coat today",
         "intent": "unknown"
+      }
+    ],
+    "exchanges": [
+      {
+        "id": 1,
+        "text": "{file_name:} is in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is located in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is located under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is located just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "{file_name:} is just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you will find {file_name:} in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you will find {file_name:} under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you will find {file_name:} located in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you will find {file_name:} located under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you will find {file_name:} located just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 3,
+        "text": "you will find {file_name:} just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is located in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is located under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "{file_name:} is located just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "{file_name:} is just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you'll find {file_name:} in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you'll find {file_name:} under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you'll find {file_name:} located in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you'll find {file_name:} located under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "you'll find {file_name:} located just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 4,
+        "text": "you'll find {file_name:} just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the file {file_name:} is in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the file {file_name:} is under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the file {file_name:} is located in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the file {file_name:} is located under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 5,
+        "text": "the file {file_name:} is located just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the {file_name:} file is in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the {file_name:} file is under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the {file_name:} file is located in {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the {file_name:} file is located under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 1,
+        "text": "the {file_name:} file is located just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "the {file_name:} file is just under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "the file name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "its name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "the name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "the requested name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it's named {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it is named {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 6,
+        "text": "the name of the file is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the file name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think its name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the requested name is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it's named {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it is named {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 7,
+        "text": "i think the name of the file is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 6,
+        "text": "the name of the file should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the file name should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think its name should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the name should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the requested name should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it should benamed {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it should be named {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think the name of the file should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it's {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it's {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "is {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it should be {file_name:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it's under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it is under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it should be under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "i think it may be under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 8,
+        "text": "i think it maybe under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it's under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it is under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it should be under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 2,
+        "text": "it may be under {parent_directory:}",
+        "intent": "inform"
+      },
+      {
+        "id": 10,
+        "text": "it maybe under {parent_directory:}",
+        "intent": "inform"
       }
     ],
     "others": [
