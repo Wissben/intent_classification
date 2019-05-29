@@ -1612,1037 +1612,2072 @@
       },
       {
         "id": 1604,
-        "text": "Can you copy the {origin:} file to the {dest:} directory",
+        "text": "Can you copy the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy the {origin:} file to the {dest:} folder",
+        "text": "Can you copy the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy the {origin:} file to {dest:} directory",
+        "text": "Can you copy the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy the {origin:} file to {dest:} folder",
+        "text": "Can you copy the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy {origin:} file to the {dest:} directory",
+        "text": "Can you copy {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy {origin:} file to the {dest:} folder",
+        "text": "Can you copy {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy {origin:} to {dest:}",
+        "text": "Can you copy {file_name:} from {origin:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you copy the {origin:} file to the {dest:} directory",
+        "text": "could you copy the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy the {origin:} file to the {dest:} folder",
+        "text": "could you copy the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy the {origin:} file to {dest:} directory",
+        "text": "could you copy the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy the {origin:} file to {dest:} folder",
+        "text": "could you copy the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} file to the {dest:} directory",
+        "text": "could you copy {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} file to the {dest:} folder",
+        "text": "could you copy {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} to {dest:}",
+        "text": "could you copy {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you please copy the {origin:} file to the {dest:} directory",
+        "text": "could you please copy the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy the {origin:} file to the {dest:} folder",
+        "text": "could you please copy the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy the {origin:} file to {dest:} directory",
+        "text": "could you please copy the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy the {origin:} file to {dest:} folder",
+        "text": "could you please copy the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy {origin:} file to the {dest:} directory",
+        "text": "could you please copy {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy {origin:} file to the {dest:} folder",
+        "text": "could you please copy {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} to {dest:}",
+        "text": "could you copy {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "please copy the {origin:} file to the {dest:} directory",
+        "text": "please copy the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy the {origin:} file to the {dest:} folder",
+        "text": "please copy the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy the {origin:} file to {dest:} directory",
+        "text": "please copy the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy the {origin:} file to {dest:} folder",
+        "text": "please copy the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy {origin:} file to the {dest:} directory",
+        "text": "please copy {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy {origin:} file to the {dest:} folder",
+        "text": "please copy {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "copy the {origin:} file to the {dest:} directory",
+        "text": "copy the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy the {origin:} file to the {dest:} folder",
+        "text": "copy the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy the {origin:} file to {dest:} directory",
+        "text": "copy the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy the {origin:} file to {dest:} folder",
+        "text": "copy the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy {origin:} file to the {dest:} directory",
+        "text": "copy {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy {origin:} file to the {dest:} folder",
+        "text": "copy {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy {origin:} file to {dest:}",
+        "text": "copy {file_name:} file to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1776,
-        "text": "Can you copy the {origin:} file",
+        "text": "Can you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy the {origin:} file",
+        "text": "Can you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy the {origin:} file",
+        "text": "Can you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy the {origin:} file",
+        "text": "Can you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy {origin:} file",
+        "text": "Can you copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy {origin:} file",
+        "text": "Can you copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you copy {origin:} to {dest:}",
+        "text": "Can you copy {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you copy the {origin:} file",
+        "text": "could you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy the {origin:} file",
+        "text": "could you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy the {origin:} file",
+        "text": "could you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy the {origin:} file",
+        "text": "could you copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} file",
+        "text": "could you copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} file",
+        "text": "could you copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} to {dest:}",
+        "text": "could you copy {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you please copy the {origin:} file",
+        "text": "could you please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy the {origin:} file",
+        "text": "could you please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy the {origin:} file",
+        "text": "could you please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy the {origin:} file",
+        "text": "could you please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy {origin:} file",
+        "text": "could you please copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please copy {origin:} file",
+        "text": "could you please copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you copy {origin:} to {dest:}",
+        "text": "could you copy {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "please copy the {origin:} file",
+        "text": "please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy the {origin:} file",
+        "text": "please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy the {origin:} file",
+        "text": "please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy the {origin:} file",
+        "text": "please copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy {origin:} file",
+        "text": "please copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please copy {origin:} file",
+        "text": "please copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "copy the {origin:} file",
+        "text": "copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy the {origin:} file",
+        "text": "copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy the {origin:} file",
+        "text": "copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy the {origin:} file",
+        "text": "copy the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy {origin:} file",
+        "text": "copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy {origin:} file",
+        "text": "copy {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "copy {origin:} file to {dest:}",
+        "text": "copy {file_name:} file to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1945,
-        "text": "Can you duplicate the {origin:} file to the {dest:} directory",
+        "text": "Can you duplicate the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate the {origin:} file to the {dest:} folder",
+        "text": "Can you duplicate the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate the {origin:} file to {dest:} directory",
+        "text": "Can you duplicate the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate the {origin:} file to {dest:} folder",
+        "text": "Can you duplicate the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate {origin:} file to the {dest:} directory",
+        "text": "Can you duplicate {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate {origin:} file to the {dest:} folder",
+        "text": "Can you duplicate {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate {origin:} to {dest:}",
+        "text": "Can you duplicate {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you duplicate the {origin:} file to the {dest:} directory",
+        "text": "could you duplicate the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate the {origin:} file to the {dest:} folder",
+        "text": "could you duplicate the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate the {origin:} file to {dest:} directory",
+        "text": "could you duplicate the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate the {origin:} file to {dest:} folder",
+        "text": "could you duplicate the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} file to the {dest:} directory",
+        "text": "could you duplicate {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} file to the {dest:} folder",
+        "text": "could you duplicate {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} to {dest:}",
+        "text": "could you duplicate {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you please duplicate the {origin:} file to the {dest:} directory",
+        "text": "could you please duplicate the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate the {origin:} file to the {dest:} folder",
+        "text": "could you please duplicate the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate the {origin:} file to {dest:} directory",
+        "text": "could you please duplicate the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate the {origin:} file to {dest:} folder",
+        "text": "could you please duplicate the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate {origin:} file to the {dest:} directory",
+        "text": "could you please duplicate {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate {origin:} file to the {dest:} folder",
+        "text": "could you please duplicate {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} to {dest:}",
+        "text": "could you duplicate {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "please duplicate the {origin:} file to the {dest:} directory",
+        "text": "please duplicate the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate the {origin:} file to the {dest:} folder",
+        "text": "please duplicate the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate the {origin:} file to {dest:} directory",
+        "text": "please duplicate the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate the {origin:} file to {dest:} folder",
+        "text": "please duplicate the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate {origin:} file to the {dest:} directory",
+        "text": "please duplicate {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate {origin:} file to the {dest:} folder",
+        "text": "please duplicate {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "duplicate the {origin:} file to the {dest:} directory",
+        "text": "duplicate the {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate the {origin:} file to the {dest:} folder",
+        "text": "duplicate the {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate the {origin:} file to {dest:} directory",
+        "text": "duplicate the {file_name:} file to {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate the {origin:} file to {dest:} folder",
+        "text": "duplicate the {file_name:} file to {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate {origin:} file to the {dest:} directory",
+        "text": "duplicate {file_name:} file to the {dest:} directory",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate {origin:} file to the {dest:} folder",
+        "text": "duplicate {file_name:} file to the {dest:} folder",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate {origin:} file to {dest:}",
+        "text": "duplicate {file_name:} file to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1776,
-        "text": "Can you duplicate the {origin:} file",
+        "text": "Can you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate the {origin:} file",
+        "text": "Can you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate the {origin:} file",
+        "text": "Can you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate the {origin:} file",
+        "text": "Can you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate {origin:} file",
+        "text": "Can you duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate {origin:} file",
+        "text": "Can you duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you duplicate {origin:} to {dest:}",
+        "text": "Can you duplicate {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you duplicate the {origin:} file",
+        "text": "could you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate the {origin:} file",
+        "text": "could you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate the {origin:} file",
+        "text": "could you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate the {origin:} file",
+        "text": "could you duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} file",
+        "text": "could you duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} file",
+        "text": "could you duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} to {dest:}",
+        "text": "could you duplicate {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you please duplicate the {origin:} file",
+        "text": "could you please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate the {origin:} file",
+        "text": "could you please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate the {origin:} file",
+        "text": "could you please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate the {origin:} file",
+        "text": "could you please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate {origin:} file",
+        "text": "could you please duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please duplicate {origin:} file",
+        "text": "could you please duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "could you duplicate {origin:} to {dest:}",
+        "text": "could you duplicate {file_name:} to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "please duplicate the {origin:} file",
+        "text": "please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate the {origin:} file",
+        "text": "please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate the {origin:} file",
+        "text": "please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate the {origin:} file",
+        "text": "please duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate {origin:} file",
+        "text": "please duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "please duplicate {origin:} file",
+        "text": "please duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1604,
-        "text": "duplicate the {origin:} file",
+        "text": "duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate the {origin:} file",
+        "text": "duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate the {origin:} file",
+        "text": "duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate the {origin:} file",
+        "text": "duplicate the {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate {origin:} file",
+        "text": "duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate {origin:} file",
+        "text": "duplicate {file_name:} file",
         "intent": "copy_file_desire"
       },
       {
         "id": 1,
-        "text": "duplicate {origin:} file to {dest:}",
+        "text": "duplicate {file_name:} file to {dest:}",
         "intent": "copy_file_desire"
       },
       {
         "id": 2287,
-        "text": "Can you move the {origin:} file to the {dest:} directory",
+        "text": "Can you move the {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move the {origin:} file to the {dest:} folder",
+        "text": "Can you move the {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move the {origin:} file to {dest:} directory",
+        "text": "Can you move the {file_name:} file to {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move the {origin:} file to {dest:} folder",
+        "text": "Can you move the {file_name:} file to {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move {origin:} file to the {dest:} directory",
+        "text": "Can you move {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move {origin:} file to the {dest:} folder",
+        "text": "Can you move {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move {origin:} to {dest:}",
+        "text": "Can you move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you move the {origin:} file to the {dest:} directory",
+        "text": "could you move the {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move the {origin:} file to the {dest:} folder",
+        "text": "could you move the {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move the {origin:} file to {dest:} directory",
+        "text": "could you move the {file_name:} file to {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move the {origin:} file to {dest:} folder",
+        "text": "could you move the {file_name:} file to {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} file to the {dest:} directory",
+        "text": "could you move {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} file to the {dest:} folder",
+        "text": "could you move {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} to {dest:}",
+        "text": "could you move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you please move the {origin:} file to the {dest:} directory",
+        "text": "could you please move the {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move the {origin:} file to the {dest:} folder",
+        "text": "could you please move the {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move the {origin:} file to {dest:} directory",
+        "text": "could you please move the {file_name:} file to {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move the {origin:} file to {dest:} folder",
+        "text": "could you please move the {file_name:} file to {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move {origin:} file to the {dest:} directory",
+        "text": "could you please move {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move {origin:} file to the {dest:} folder",
+        "text": "could you please move {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} to {dest:}",
+        "text": "could you move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "please move the {origin:} file to the {dest:} directory",
+        "text": "please move the {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move the {origin:} file to the {dest:} folder",
+        "text": "please move the {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move the {origin:} file to {dest:} directory",
+        "text": "please move the {file_name:} file to {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move the {origin:} file to {dest:} folder",
+        "text": "please move the {file_name:} file to {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move {origin:} file to the {dest:} directory",
+        "text": "please move {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move {origin:} file to the {dest:} folder",
+        "text": "please move {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "move the {origin:} file to the {dest:} directory",
+        "text": "move the {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move the {origin:} file to the {dest:} folder",
+        "text": "move the {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move the {origin:} file to {dest:} directory",
+        "text": "move the {file_name:} file to {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move the {origin:} file to {dest:} folder",
+        "text": "move the {file_name:} file to {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} file to the {dest:} directory",
+        "text": "move {file_name:} file to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} to the {dest:} directory",
+        "text": "move {file_name:} to the {dest:} directory",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} file to the {dest:} folder",
+        "text": "move {file_name:} file to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} to the {dest:} folder",
+        "text": "move {file_name:} to the {dest:} folder",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} file to {dest:}",
+        "text": "move {file_name:} file to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} to {dest:}",
+        "text": "move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1776,
-        "text": "Can you move the {origin:} file",
+        "text": "Can you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move the {origin:} file",
+        "text": "Can you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move the {origin:} file",
+        "text": "Can you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move the {origin:} file",
+        "text": "Can you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move {origin:} file",
+        "text": "Can you move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move {origin:} file",
+        "text": "Can you move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "Can you move {origin:} to {dest:}",
+        "text": "Can you move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you move the {origin:} file",
+        "text": "could you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move the {origin:} file",
+        "text": "could you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move the {origin:} file",
+        "text": "could you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move the {origin:} file",
+        "text": "could you move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} file",
+        "text": "could you move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} file",
+        "text": "could you move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} to {dest:}",
+        "text": "could you move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "could you please move the {origin:} file",
+        "text": "could you please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move the {origin:} file",
+        "text": "could you please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move the {origin:} file",
+        "text": "could you please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move the {origin:} file",
+        "text": "could you please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move {origin:} file",
+        "text": "could you please move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you please move {origin:} file",
+        "text": "could you please move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "could you move {origin:} to {dest:}",
+        "text": "could you move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "please move the {origin:} file",
+        "text": "please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move the {origin:} file",
+        "text": "please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move the {origin:} file",
+        "text": "please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move the {origin:} file",
+        "text": "please move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move {origin:} file",
+        "text": "please move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "please move {origin:} file",
+        "text": "please move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1604,
-        "text": "move the {origin:} file",
+        "text": "move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move the {origin:} file",
+        "text": "move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move the {origin:} file",
+        "text": "move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move the {origin:} file",
+        "text": "move the {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} file",
+        "text": "move {file_name:} file",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} file to {dest:}",
+        "text": "move {file_name:} file to {dest:}",
         "intent": "move_file_desire"
       },
       {
         "id": 1,
-        "text": "move {origin:} to {dest:}",
+        "text": "move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 2649,
+        "text": "Can you copy the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you copy the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you  copy {file_name:} from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you please copy the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you  copy {file_name:} from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "please copy the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "copy the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy {file_name:} file from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1776,
+        "text": "Can you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you  copy {file_name:} from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you  copy {file_name:} from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you  copy {file_name:} from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "copy {file_name:} file from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1945,
+        "text": "Can you duplicate the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you duplicate the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you please duplicate the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "please duplicate the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "duplicate the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate {file_name:} file from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1776,
+        "text": "Can you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you duplicate {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you duplicate {file_name:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate the {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate {file_name:} file from {origin:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "duplicate {file_name:} file from {origin:} to {dest:}",
+        "intent": "copy_file_desire"
+      },
+      {
+        "id": 2287,
+        "text": "Can you move the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you move the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you please move the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "please move the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "move the {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move the {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move the {file_name:} file from {origin:} to {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move the {file_name:} file from {origin:} to {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} file from {origin:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} to the {dest:} directory",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} file from {origin:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} to the {dest:} folder",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} file from {origin:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1776,
+        "text": "Can you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "Can you move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "could you please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you please move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "could you move {file_name:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "please move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1604,
+        "text": "move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move the {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} file from {origin:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} file from {origin:} to {dest:}",
+        "intent": "move_file_desire"
+      },
+      {
+        "id": 1,
+        "text": "move {file_name:} to {dest:}",
         "intent": "move_file_desire"
       },
       {
@@ -6547,6 +7582,36 @@
       {
         "id": 1,
         "text": "Perfect",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "Perfect do that",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "Perfect just do that",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "Perfect yeah",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "Perfect yeah just do that",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "alright",
+        "intent": "confirm"
+      },
+      {
+        "id": 1,
+        "text": "alright yeah",
         "intent": "confirm"
       },
       {
