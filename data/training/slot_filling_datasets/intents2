@@ -1,9 +1,41 @@
-Create_file_desire : file_name, parent_directory, is_file //is_file indicates if create file or create directory
-Delete_file_desire : file_name, parent_directory, is_file //is_file indicates if create file or create directory
+Create_file_desire : ALTER.file_name, ALTER.parent_directory, is_file //is_file indicates if create file or create directory
+Delete_file_desire : ALTER.file_name, ALTER.parent_directory, is_file //is_file indicates if create file or create directory
 Change_directory_desire: new_directory
-inform: file_name, parent_directory
-request: file_name, directory, slot // slot indicates what is requested for example paths given a file_name or file_names given a directory
-Copy/Move_file_desire: origin, dest, file_name
+inform: EXCH.file_name, EXCH.parent_directory
+request: EXCH.file_name, EXCH.directory, slot // slot indicates what is requested for example paths given a file_name or file_names given a directory
+Copy/Move_file_desire: origin, dest, ALTER.file_name
 rename_file_desire: old_name, new_name
 
+
+"create_file_desire",
+"create_directory_desire",
+"delete_file_desire",
+"delete_directory_desire",
+"open_file_desire",
+"close_file_desire",
+"copy_file_desire",
+"move_file_desire",
+"rename_file_desire",
+"change_directory_desire",
+"inform",
+"request",
+"deny",
+"confirm",
+"unknown"
+
+
+
+
+"ALTER.file_name",
+"EXCH.file_name",
+"ALTER.directory_name",
+"EXCH.directory_name",
+"ALTER.parent_directory",
+"EXCH.parent_directory",
+"new_directory",
+"origin",
+"dest",
+"old_name",
+"new_name",
+"NUL"
 

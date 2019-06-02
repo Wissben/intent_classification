@@ -2,6 +2,7 @@ import os
 import json
 from pprint import pprint as pr
 import re
+import pprint
 
 
 def make_ids(intents):
@@ -125,30 +126,41 @@ def n_words(data):
     return res
 
 
-# "/home/weiss/Documents/intent_parser/train_intents.json"
+def change_intents_domains(data, dic):
+    i = 0
+    for type in data['train_dataset']:
+        for inst in data['train_dataset'][type]:
+            new_text = re.sub(
+                r'{(.+?):}', r'{%s\1:}' % (dic[inst['intent']]), inst['text'])
+            inst['text'] = new_text
+
+    # "/home/weiss/Documents/intent_parser/train_intents.json"
 DATASET_PATH = os.path.join(os.path.dirname(__file__), 'train_intents.json')
 # "/home/weiss/Documents/intent_parser/train_intents_cleaned.json"
 DATASET_CLEANED_PATH = os.path.join(
     os.path.dirname(__file__), 'train_intents_cleaned.json')
 ROOT_PATH = '/home/weiss'
 PLUGS = []
-for filename in walk(ROOT_PATH, 3):
-    PLUGS.append(filename)
-PLUGS = [dir for dir in PLUGS if exclude_condition(dir)]
-tosave = open('./tmp', 'w+')
-for plug in PLUGS:
-    tosave.write(plug+'\n')
-    tosave.flush()
 
-# try:
-#     f = open(DATASET_CLEANED_PATH, 'w')
-#     data = load_data(DATASET_PATH)
-#     data['train_dataset']['folders'] = fill_placeholders(
-#         data['train_dataset']['folders'], PLUGS)
-#     data['train_dataset']['files'] = fill_placeholders(
-#         data['train_dataset']['files'], PLUGS)
-#     make_ids(data['train_dataset']['folders'])
-#     make_ids(data['train_dataset']['files'])
-#     json.dump(data, f, indent=4, separators=(',', ': '))
-# except FileNotFoundError as e:
-#     pr('[ERROR] : ', e)
+data = load_data(DATASET_PATH)
+
+dic = {'create_file_desire': 'ALTER.',
+       'create_directory_desire': 'ALTER.',
+       'delete_file_desire': 'ALTER.',
+       'delete_directory_desire': 'ALTER.',
+       'open_file_desire': 'INFO.',
+       'close_file_desire': 'INFO.',
+       "copy_file_desire": 'ALTER.',
+       "move_file_desire": 'ALTER.',
+       "rename_file_desire": 'ALTER.',
+       "inform": 'EXCH.',
+       "request": "EXCH.",
+       "change_directory_desire": '',
+       "deny": '',
+       "confirm": '',
+       "unknown": ''
+       }
+
+change_intents_domains(data, dic)
+fd = open(DATASET_PATH, 'w')
+json.dump(data, fd, sort_keys=True, indent=4, separators=(',', ': '))
