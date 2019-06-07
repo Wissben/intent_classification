@@ -102,6 +102,36 @@
             {
                 "id": 1,
                 "intent": "inform",
+                "text": "you will find it in {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
+                "text": "you will find it under {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
+                "text": "you will find it located in {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
+                "text": "you will find it located under {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
+                "text": "you will find it located just under {EXCH.parent_directory:}"
+            },
+            {
+                "id": 3,
+                "intent": "inform",
+                "text": "you will find it just under {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
                 "text": "{EXCH.file_name:} is in {EXCH.parent_directory:}"
             },
             {
@@ -6253,6 +6283,196 @@
             },
             {
                 "id": 1,
+                "intent": "create_file_desire",
+                "text": "Can you create a new file"
+            },
+            {
+                "id": 1,
+                "intent": "create_file_desire",
+                "text": "Can you create a file"
+            },
+            {
+                "id": 2,
+                "intent": "create_file_desire",
+                "text": "Could you please create a file"
+            },
+            {
+                "id": 2,
+                "intent": "create_file_desire",
+                "text": "Could you please create a new file"
+            },
+            {
+                "id": 3,
+                "intent": "create_file_desire",
+                "text": "Please create a file"
+            },
+            {
+                "id": 3,
+                "intent": "create_file_desire",
+                "text": "Please create a new file"
+            },
+            {
+                "id": 4,
+                "intent": "create_file_desire",
+                "text": "Can you create a file"
+            },
+            {
+                "id": 4,
+                "intent": "create_file_desire",
+                "text": "Can you create a new file"
+            },
+            {
+                "id": 5,
+                "intent": "create_file_desire",
+                "text": "I would like to create a file"
+            },
+            {
+                "id": 5,
+                "intent": "create_file_desire",
+                "text": "I would like to create a new file"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "Hey would you please create a file for me"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "Hey would you please create a new file for me"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create the a file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create the a new file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 16,
+                "intent": "create_file_desire",
+                "text": "could you create a file"
+            },
+            {
+                "id": 16,
+                "intent": "create_file_desire",
+                "text": "could you create a new file"
+            },
+            {
+                "id": 17,
+                "intent": "create_file_desire",
+                "text": "please create a file"
+            },
+            {
+                "id": 17,
+                "intent": "create_file_desire",
+                "text": "please create a new file"
+            },
+            {
+                "id": 19,
+                "intent": "create_file_desire",
+                "text": "I would like to create a file"
+            },
+            {
+                "id": 20,
+                "intent": "create_file_desire",
+                "text": "I would like to create a new file"
+            },
+            {
+                "id": 2,
+                "intent": "create_file_desire",
+                "text": "Could you please make a new file"
+            },
+            {
+                "id": 3,
+                "intent": "create_file_desire",
+                "text": "Please make a new file"
+            },
+            {
+                "id": 4,
+                "intent": "create_file_desire",
+                "text": "Can you make a new file"
+            },
+            {
+                "id": 5,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file"
+            },
+            {
+                "id": 6,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file"
+            },
+            {
+                "id": 7,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file"
+            },
+            {
+                "id": 8,
+                "intent": "create_file_desire",
+                "text": "make a new file"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "Hey would you please make a new file for me"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "make a new file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "create_file_desire",
+                "text": "Can you make a new file"
+            },
+            {
+                "id": 16,
+                "intent": "create_file_desire",
+                "text": "Could you please make a new file"
+            },
+            {
+                "id": 17,
+                "intent": "create_file_desire",
+                "text": "Please make a new file"
+            },
+            {
+                "id": 18,
+                "intent": "create_file_desire",
+                "text": "Can you make a new file"
+            },
+            {
+                "id": 19,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file"
+            },
+            {
+                "id": 20,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file"
+            },
+            {
+                "id": 21,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file"
+            },
+            {
+                "id": 22,
+                "intent": "create_file_desire",
+                "text": "make a new file"
+            },
+            {
+                "id": 25,
+                "intent": "create_file_desire",
+                "text": "Hey would you please make a new file for me"
+            },
+            {
+                "id": 1,
                 "intent": "open_file_desire",
                 "text": "Can you open the file named {INFO.file_name:}"
             },
@@ -9496,277 +9716,307 @@
             {
                 "id": 25,
                 "intent": "create_directory_desire",
-                "text": "Hey would you please make the {ALTER.file_name:} directory for me"
+                "text": "Hey would you please make the {ALTER.directory_name:} directory for me"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER.file_name:} folder"
+                "text": "Can you delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please delete the {ALTER.file_name:} folder"
+                "text": "Could you please delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please delete the {ALTER.file_name:} folder"
+                "text": "Please delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER.file_name:} folder"
+                "text": "Can you delete the {ALTER. directory_name:} folder"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to delete the {ALTER.file_name:} folder"
+                "text": "I want to delete the {ALTER. directory_name:} folder"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to delete the {ALTER.file_name:} folder"
+                "text": "I would like to delete the {ALTER. directory_name:} folder"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER.file_name:} folder"
+                "text": "delete the {ALTER. directory_name:} folder"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "delete me the {ALTER.file_name:} folder"
+                "text": "delete me the {ALTER. directory_name:} folder"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER.file_name:} folder"
+                "text": "delete the {ALTER. directory_name:} folder"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please delete the {ALTER.file_name:} folder for me"
+                "text": "Hey would you please delete the {ALTER. directory_name:} folder for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "delete the content of the {ALTER.file_name:} folder"
+                "text": "delete the content of the {ALTER. directory_name:} folder"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER.file_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "delete the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 15,
                 "intent": "delete_directory_desire",
-                "text": "delete me the {ALTER.file_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "delete me the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER.file_name:} directory"
+                "text": "Can you delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please delete the {ALTER.file_name:} directory"
+                "text": "Could you please delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please delete the {ALTER.file_name:} directory"
+                "text": "Please delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER.file_name:} directory"
+                "text": "Can you delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to delete the {ALTER.file_name:} directory"
+                "text": "I want to delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want you to delete the {ALTER.file_name:} directory"
+                "text": "I want you to delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to delete the {ALTER.file_name:} directory"
+                "text": "I would like to delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER.file_name:} directory"
+                "text": "delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "delete me the {ALTER.file_name:} directory"
+                "text": "delete me the {ALTER. directory_name:} directory"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER.file_name:} directory"
+                "text": "delete the {ALTER. directory_name:} directory"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please delete the {ALTER.file_name:} directory for me"
+                "text": "Hey would you please delete the {ALTER. directory_name:} directory for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "delete the content of the {ALTER.file_name:} directory"
+                "text": "delete the content of the {ALTER. directory_name:} directory"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER.file_name:} subdirectory under {ALTER.parent_directory:}"
+                "text": "delete the {ALTER. directory_name:} subdirectory under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER.file_name:} folder"
+                "text": "Can you remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please remove the {ALTER.file_name:} folder"
+                "text": "Could you please remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please remove the {ALTER.file_name:} folder"
+                "text": "Please remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER.file_name:} folder"
+                "text": "Can you remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to remove the {ALTER.file_name:} folder"
+                "text": "I want to remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to remove the {ALTER.file_name:} folder"
+                "text": "I would like to remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} folder"
+                "text": "remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} folder"
+                "text": "remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} folder"
+                "text": "remove the {ALTER. directory_name:} folder"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please remove the {ALTER.file_name:} folder for me"
+                "text": "Hey would you please remove the {ALTER. directory_name:} folder for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "remove the content of the {ALTER.file_name:} folder"
+                "text": "remove the content of the {ALTER. directory_name:} folder"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "remove the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 15,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "remove the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER.file_name:} directory"
+                "text": "Can you remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please remove the {ALTER.file_name:} directory"
+                "text": "Could you please remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please remove the {ALTER.file_name:} directory"
+                "text": "Please remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER.file_name:} directory"
+                "text": "Can you remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to remove the {ALTER.file_name:} directory"
+                "text": "I want to remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want you to remove the {ALTER.file_name:} directory"
+                "text": "I want you to remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to remove the {ALTER.file_name:} directory"
+                "text": "I would like to remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} directory"
+                "text": "remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} directory"
+                "text": "remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} directory"
+                "text": "remove the {ALTER. directory_name:} directory"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please remove the {ALTER.file_name:} directory for me"
+                "text": "Hey would you please remove the {ALTER. directory_name:} directory for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "remove the content of the {ALTER.file_name:} directory"
+                "text": "remove the content of the {ALTER. directory_name:} directory"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER.file_name:} subdirectory under {ALTER.parent_directory:}"
+                "text": "remove the {ALTER. directory_name:} subdirectory under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "change_directory_desire",
-                "text": "Move to {new_directory:} directory"
+                "text": "move to {new_directory:} directory"
             },
             {
                 "id": 1,
                 "intent": "change_directory_desire",
-                "text": "Move to {new_directory:} folder"
+                "text": "move to {new_directory:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "move to {new_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "move to {new_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "please move to {new_directory:} directory"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "please move to {new_directory:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "please move to {new_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "please move to {new_directory:}"
             },
             {
                 "id": 1,
@@ -16565,12 +16815,12 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Is there a Linux file manager with a proper drop-down tree view like finder in OS X"
+                "text": "Is there a Linux file manager with a proper drop down tree view like finder in OS X"
             },
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Which application do you recommend for watching TV (DVB)"
+                "text": "Which application do you recommend for watching TV DVB"
             },
             {
                 "id": 1,
@@ -16580,7 +16830,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "What do you use to edit Microsoft Word documents (docx)"
+                "text": "What do you use to edit Microsoft Word documents docx"
             },
             {
                 "id": 1,
@@ -16605,7 +16855,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "A light alternative to gnome-system-monitor"
+                "text": "A light alternative to gnome system monitor"
             },
             {
                 "id": 1,
@@ -16630,7 +16880,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Can you recommend a good modern GUI download manager (wget wrapper)"
+                "text": "Can you recommend a good modern GUI download manager wget wrapper"
             },
             {
                 "id": 1,
@@ -16705,7 +16955,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "shutdown in specific way if no-one uses computer"
+                "text": "shutdown in specific way if no one uses computer"
             },
             {
                 "id": 1,
@@ -16735,7 +16985,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Doubts regarding the 15.04 upgrade (is it inevitable and unavoidable)"
+                "text": "Doubts regarding the 15.04 upgrade is it inevitable and unavoidable"
             },
             {
                 "id": 1,
@@ -16755,7 +17005,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Upgrading from 12.04 to 13.10 ( Unanswered questions )"
+                "text": "Upgrading from 12.04 to 13.10  Unanswered questions "
             },
             {
                 "id": 1,
@@ -16815,7 +17065,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "On really old Ubuntu 6.06 - How to upgrade"
+                "text": "On really old Ubuntu 6.06   How to upgrade"
             },
             {
                 "id": 1,
@@ -16830,7 +17080,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "update-manager: upgrade to 15.04 rather than 16.04"
+                "text": "update manager: upgrade to 15.04 rather than 16.04"
             },
             {
                 "id": 1,
@@ -16925,7 +17175,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Upgrading From 11.04 (32bit) to 12.04 (64bit)"
+                "text": "Upgrading From 11.04 32bit to 12.04 64bit"
             },
             {
                 "id": 1,
@@ -16980,7 +17230,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Installing Epson XP-424 wireless printer"
+                "text": "Installing Epson XP 424 wireless printer"
             },
             {
                 "id": 1,
@@ -16995,7 +17245,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "How to Install Brother DCP-8110DN Laser Printer on Ubuntu"
+                "text": "How to Install Brother DCP 8110DN Laser Printer on Ubuntu"
             },
             {
                 "id": 1,
@@ -17015,7 +17265,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Install printer Lexmark X4690 (ubuntu 12.04)"
+                "text": "Install printer Lexmark X4690 ubuntu 12.04"
             },
             {
                 "id": 1,
@@ -17110,7 +17360,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "How to install a Brother MFC-5890CN network printer"
+                "text": "How to install a Brother MFC 5890CN network printer"
             },
             {
                 "id": 1,
@@ -17120,7 +17370,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "How do I install drivers for the Panasonic MB1900CX All-in-One Printer/Scanner"
+                "text": "How do I install drivers for the Panasonic MB1900CX All in One Printer/Scanner"
             },
             {
                 "id": 1,
@@ -17145,7 +17395,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Torrent client for the command-line"
+                "text": "Torrent client for the command line"
             },
             {
                 "id": 1,
@@ -17185,7 +17435,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "UPNP / DLNA (client) player recommendations"
+                "text": "UPNP / DLNA client player recommendations"
             },
             {
                 "id": 1,
@@ -17230,7 +17480,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "What is the proper terminal-way to shutdown"
+                "text": "What is the proper terminal way to shutdown"
             },
             {
                 "id": 1,
@@ -17295,7 +17545,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when does the next u-bahn leaves from garching forschungszentrum"
+                "text": "when does the next u bahn leaves from garching forschungszentrum"
             },
             {
                 "id": 1,
@@ -17340,7 +17590,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when is the next s-bahn leaving at garching"
+                "text": "when is the next s bahn leaving at garching"
             },
             {
                 "id": 1,
@@ -17380,7 +17630,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "can you find a connection from kurt-eisner-stra 00dfe to garching forschungszentrum"
+                "text": "can you find a connection from kurt eisner stra 00dfe to garching forschungszentrum"
             },
             {
                 "id": 1,
@@ -17430,7 +17680,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "how can i get from kurt-eisner-stra 00dfe to garching forschungszentrum"
+                "text": "how can i get from kurt eisner stra 00dfe to garching forschungszentrum"
             },
             {
                 "id": 1,
@@ -17590,12 +17840,12 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when does the next u-bahn departs at garching forschungszentrum"
+                "text": "when does the next u bahn departs at garching forschungszentrum"
             },
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when does the next u-bahn departs at garching"
+                "text": "when does the next u bahn departs at garching"
             },
             {
                 "id": 1,
@@ -17710,7 +17960,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when does the next u-bahn depart at garching"
+                "text": "when does the next u bahn depart at garching"
             },
             {
                 "id": 1,
@@ -17860,7 +18110,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "i need a connection from harras to karl-preis-platz at 8 am."
+                "text": "i need a connection from harras to karl preis platz at 8 am."
             },
             {
                 "id": 1,
@@ -17930,7 +18180,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "how can i get from kurt-eisner-stra 00dfe to garching"
+                "text": "how can i get from kurt eisner stra 00dfe to garching"
             },
             {
                 "id": 1,
@@ -17960,7 +18210,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "how can i get from garching forschungszentrum to kurt-eisner-stra 00dfe"
+                "text": "how can i get from garching forschungszentrum to kurt eisner stra 00dfe"
             },
             {
                 "id": 1,
@@ -18040,7 +18290,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when does the next s-bahn leaves from hauptbahnhof"
+                "text": "when does the next s bahn leaves from hauptbahnhof"
             },
             {
                 "id": 1,
@@ -18060,7 +18310,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "when will the next u-bahn depart from garching forschungszentrum"
+                "text": "when will the next u bahn depart from garching forschungszentrum"
             },
             {
                 "id": 1,
@@ -18550,7 +18800,7 @@
             {
                 "id": 1,
                 "intent": "unknown",
-                "text": "Is the Swan Oyster Depot cash-only"
+                "text": "Is the Swan Oyster Depot cash only"
             },
             {
                 "id": 1,
