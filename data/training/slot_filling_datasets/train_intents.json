@@ -42,6 +42,11 @@
             {
                 "id": 1,
                 "intent": "inform",
+                "text": "{EXCH.file_name:} is inside {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
                 "text": "{EXCH.file_name:} is under {EXCH.parent_directory:}"
             },
             {
@@ -98,6 +103,11 @@
                 "id": 1,
                 "intent": "inform",
                 "text": "{EXCH.file_name:} is in {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
+                "text": "{EXCH.file_name:} is inside {EXCH.parent_directory:}"
             },
             {
                 "id": 1,
@@ -162,6 +172,11 @@
             {
                 "id": 1,
                 "intent": "inform",
+                "text": "the file {EXCH.file_name:} is inside {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
                 "text": "the file {EXCH.file_name:} is under {EXCH.parent_directory:}"
             },
             {
@@ -183,6 +198,11 @@
                 "id": 1,
                 "intent": "inform",
                 "text": "the {EXCH.file_name:} file is in {EXCH.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "inform",
+                "text": "the {EXCH.file_name:} file is inside {EXCH.parent_directory:}"
             },
             {
                 "id": 1,
