@@ -6344,12 +6344,12 @@
             {
                 "id": 13,
                 "intent": "create_file_desire",
-                "text": "create the a file under {ALTER.parent_directory:}"
+                "text": "create a file under {ALTER.parent_directory:}"
             },
             {
                 "id": 13,
                 "intent": "create_file_desire",
-                "text": "create the a new file under {ALTER.parent_directory:}"
+                "text": "create a new file under {ALTER.parent_directory:}"
             },
             {
                 "id": 16,
@@ -9717,6 +9717,386 @@
                 "id": 25,
                 "intent": "create_directory_desire",
                 "text": "Hey would you please make the {ALTER.directory_name:} directory for me"
+            },
+            {
+                "id": 1,
+                "intent": "create_directory_desire",
+                "text": "Can you create a new directory"
+            },
+            {
+                "id": 1,
+                "intent": "create_directory_desire",
+                "text": "Can you create a directory"
+            },
+            {
+                "id": 2,
+                "intent": "create_directory_desire",
+                "text": "Could you please create a directory"
+            },
+            {
+                "id": 2,
+                "intent": "create_directory_desire",
+                "text": "Could you please create a new directory"
+            },
+            {
+                "id": 3,
+                "intent": "create_directory_desire",
+                "text": "Please create a directory"
+            },
+            {
+                "id": 3,
+                "intent": "create_directory_desire",
+                "text": "Please create a new directory"
+            },
+            {
+                "id": 4,
+                "intent": "create_directory_desire",
+                "text": "Can you create a directory"
+            },
+            {
+                "id": 4,
+                "intent": "create_directory_desire",
+                "text": "Can you create a new directory"
+            },
+            {
+                "id": 5,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a directory"
+            },
+            {
+                "id": 5,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a new directory"
+            },
+            {
+                "id": 11,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please create a directory for me"
+            },
+            {
+                "id": 11,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please create a new directory for me"
+            },
+            {
+                "id": 13,
+                "intent": "create_directory_desire",
+                "text": "create a directory under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_directory_desire",
+                "text": "create a new directory under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 16,
+                "intent": "create_directory_desire",
+                "text": "could you create a directory"
+            },
+            {
+                "id": 16,
+                "intent": "create_directory_desire",
+                "text": "could you create a new directory"
+            },
+            {
+                "id": 17,
+                "intent": "create_directory_desire",
+                "text": "please create a directory"
+            },
+            {
+                "id": 17,
+                "intent": "create_directory_desire",
+                "text": "please create a new directory"
+            },
+            {
+                "id": 19,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a directory"
+            },
+            {
+                "id": 20,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a new directory"
+            },
+            {
+                "id": 2,
+                "intent": "create_directory_desire",
+                "text": "Could you please make a new directory"
+            },
+            {
+                "id": 3,
+                "intent": "create_directory_desire",
+                "text": "Please make a new directory"
+            },
+            {
+                "id": 4,
+                "intent": "create_directory_desire",
+                "text": "Can you make a new directory"
+            },
+            {
+                "id": 5,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new directory"
+            },
+            {
+                "id": 6,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new directory"
+            },
+            {
+                "id": 7,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new directory"
+            },
+            {
+                "id": 8,
+                "intent": "create_directory_desire",
+                "text": "make a new directory"
+            },
+            {
+                "id": 11,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please make a new directory for me"
+            },
+            {
+                "id": 13,
+                "intent": "create_directory_desire",
+                "text": "make a new directory under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "create_directory_desire",
+                "text": "Can you make a new directory"
+            },
+            {
+                "id": 16,
+                "intent": "create_directory_desire",
+                "text": "Could you please make a new directory"
+            },
+            {
+                "id": 17,
+                "intent": "create_directory_desire",
+                "text": "Please make a new directory"
+            },
+            {
+                "id": 18,
+                "intent": "create_directory_desire",
+                "text": "Can you make a new directory"
+            },
+            {
+                "id": 19,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new directory"
+            },
+            {
+                "id": 20,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new directory"
+            },
+            {
+                "id": 21,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new directory"
+            },
+            {
+                "id": 22,
+                "intent": "create_directory_desire",
+                "text": "make a new directory"
+            },
+            {
+                "id": 25,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please make a new directory for me"
+            },
+            {
+                "id": 1,
+                "intent": "create_directory_desire",
+                "text": "Can you create a new folder"
+            },
+            {
+                "id": 1,
+                "intent": "create_directory_desire",
+                "text": "Can you create a folder"
+            },
+            {
+                "id": 2,
+                "intent": "create_directory_desire",
+                "text": "Could you please create a folder"
+            },
+            {
+                "id": 2,
+                "intent": "create_directory_desire",
+                "text": "Could you please create a new folder"
+            },
+            {
+                "id": 3,
+                "intent": "create_directory_desire",
+                "text": "Please create a folder"
+            },
+            {
+                "id": 3,
+                "intent": "create_directory_desire",
+                "text": "Please create a new folder"
+            },
+            {
+                "id": 4,
+                "intent": "create_directory_desire",
+                "text": "Can you create a folder"
+            },
+            {
+                "id": 4,
+                "intent": "create_directory_desire",
+                "text": "Can you create a new folder"
+            },
+            {
+                "id": 5,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a folder"
+            },
+            {
+                "id": 5,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a new folder"
+            },
+            {
+                "id": 11,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please create a folder for me"
+            },
+            {
+                "id": 11,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please create a new folder for me"
+            },
+            {
+                "id": 13,
+                "intent": "create_directory_desire",
+                "text": "create a folder under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_directory_desire",
+                "text": "create a new folder under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 16,
+                "intent": "create_directory_desire",
+                "text": "could you create a folder"
+            },
+            {
+                "id": 16,
+                "intent": "create_directory_desire",
+                "text": "could you create a new folder"
+            },
+            {
+                "id": 17,
+                "intent": "create_directory_desire",
+                "text": "please create a folder"
+            },
+            {
+                "id": 17,
+                "intent": "create_directory_desire",
+                "text": "please create a new folder"
+            },
+            {
+                "id": 19,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a folder"
+            },
+            {
+                "id": 20,
+                "intent": "create_directory_desire",
+                "text": "I would like to create a new folder"
+            },
+            {
+                "id": 2,
+                "intent": "create_directory_desire",
+                "text": "Could you please make a new folder"
+            },
+            {
+                "id": 3,
+                "intent": "create_directory_desire",
+                "text": "Please make a new folder"
+            },
+            {
+                "id": 4,
+                "intent": "create_directory_desire",
+                "text": "Can you make a new folder"
+            },
+            {
+                "id": 5,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new folder"
+            },
+            {
+                "id": 6,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new folder"
+            },
+            {
+                "id": 7,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new folder"
+            },
+            {
+                "id": 8,
+                "intent": "create_directory_desire",
+                "text": "make a new folder"
+            },
+            {
+                "id": 11,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please make a new folder for me"
+            },
+            {
+                "id": 13,
+                "intent": "create_directory_desire",
+                "text": "make a new folder under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "create_directory_desire",
+                "text": "Can you make a new folder"
+            },
+            {
+                "id": 16,
+                "intent": "create_directory_desire",
+                "text": "Could you please make a new folder"
+            },
+            {
+                "id": 17,
+                "intent": "create_directory_desire",
+                "text": "Please make a new folder"
+            },
+            {
+                "id": 18,
+                "intent": "create_directory_desire",
+                "text": "Can you make a new folder"
+            },
+            {
+                "id": 19,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new folder"
+            },
+            {
+                "id": 20,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new folder"
+            },
+            {
+                "id": 21,
+                "intent": "create_directory_desire",
+                "text": "I would like to make a new folder"
+            },
+            {
+                "id": 22,
+                "intent": "create_directory_desire",
+                "text": "make a new folder"
+            },
+            {
+                "id": 25,
+                "intent": "create_directory_desire",
+                "text": "Hey would you please make a new folder for me"
             },
             {
                 "id": 1,
