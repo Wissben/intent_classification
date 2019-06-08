@@ -10263,7 +10263,7 @@
                 "intent": "delete_directory_desire",
                 "text": "delete the {ALTER.directory_name:} folder"
             },
-            {g
+            {
                 "id": 9,
                 "intent": "delete_directory_desire",
                 "text": "delete me the {ALTER.directory_name:} folder"
