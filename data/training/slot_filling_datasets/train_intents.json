@@ -6578,6 +6578,136 @@
             },
             {
                 "id": 1,
+                "intent": "open_file_desire",
+                "text": "Can you open {INFO.file_name:}"
+            },
+            {
+                "id": 1,
+                "intent": "open_file_desire",
+                "text": "Can you open {INFO.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "open_file_desire",
+                "text": "Could you please open {INFO.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "open_file_desire",
+                "text": "Could you please open {INFO.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "open_file_desire",
+                "text": "Could you please open {INFO.file_name:}"
+            },
+            {
+                "id": 3,
+                "intent": "open_file_desire",
+                "text": "Please open {INFO.file_name:}"
+            },
+            {
+                "id": 3,
+                "intent": "open_file_desire",
+                "text": "Please open {INFO.file_name:}"
+            },
+            {
+                "id": 4,
+                "intent": "open_file_desire",
+                "text": "Can you open {INFO.file_name:}"
+            },
+            {
+                "id": 4,
+                "intent": "open_file_desire",
+                "text": "Can you open {INFO.file_name:}"
+            },
+            {
+                "id": 5,
+                "intent": "open_file_desire",
+                "text": "I would like to open {INFO.file_name:}"
+            },
+            {
+                "id": 5,
+                "intent": "open_file_desire",
+                "text": "I would like to open {INFO.file_name:}"
+            },
+            {
+                "id": 6,
+                "intent": "open_file_desire",
+                "text": "I would like to open {INFO.file_name:}"
+            },
+            {
+                "id": 7,
+                "intent": "open_file_desire",
+                "text": "I would like to open {INFO.file_name:}"
+            },
+            {
+                "id": 8,
+                "intent": "open_file_desire",
+                "text": "open {INFO.file_name:}"
+            },
+            {
+                "id": 8,
+                "intent": "open_file_desire",
+                "text": "open {INFO.file_name:}"
+            },
+            {
+                "id": 9,
+                "intent": "open_file_desire",
+                "text": "show me {INFO.file_name:}"
+            },
+            {
+                "id": 9,
+                "intent": "open_file_desire",
+                "text": "show me {INFO.file_name:}"
+            },
+            {
+                "id": 10,
+                "intent": "open_file_desire",
+                "text": "Display {INFO.file_name:}"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please open {INFO.file_name:} for me"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please show me {INFO.file_name:} for me"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please show {INFO.file_name:} for me"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please dipsplay {INFO.file_name:} for me"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please open {INFO.file_name:}"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please show me {INFO.file_name:}"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please show {INFO.file_name:}"
+            },
+            {
+                "id": 12,
+                "intent": "open_file_desire",
+                "text": "Hey would you please dipsplay {INFO.file_name:}"
+            },
+            {
+                "id": 1,
                 "intent": "close_file_desire",
                 "text": "Can you close the file named {INFO.file_name:}"
             },
@@ -10133,7 +10263,7 @@
                 "intent": "delete_directory_desire",
                 "text": "delete the {ALTER.directory_name:} folder"
             },
-            {
+            {g
                 "id": 9,
                 "intent": "delete_directory_desire",
                 "text": "delete me the {ALTER.directory_name:} folder"
