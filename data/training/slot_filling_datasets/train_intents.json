@@ -9716,7 +9716,7 @@
             {
                 "id": 25,
                 "intent": "create_directory_desire",
-                "text": "Hey would you please make the {ALTER.directory_name:} directory for me"
+                "text": "Hey would you please make the {ALTER.file_name:} directory for me"
             },
             {
                 "id": 1,
@@ -10116,247 +10116,247 @@
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER. directory_name:} folder"
+                "text": "Can you delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to delete the {ALTER. directory_name:} folder"
+                "text": "I want to delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to delete the {ALTER. directory_name:} folder"
+                "text": "I would like to delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER. directory_name:} folder"
+                "text": "delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "delete me the {ALTER. directory_name:} folder"
+                "text": "delete me the {ALTER.directory_name:} folder"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER. directory_name:} folder"
+                "text": "delete the {ALTER.directory_name:} folder"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please delete the {ALTER. directory_name:} folder for me"
+                "text": "Hey would you please delete the {ALTER.directory_name:} folder for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "delete the content of the {ALTER. directory_name:} folder"
+                "text": "delete the content of the {ALTER.directory_name:} folder"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "delete the {ALTER.directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 15,
                 "intent": "delete_directory_desire",
-                "text": "delete me the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "delete me the {ALTER.directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER. directory_name:} directory"
+                "text": "Can you delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please delete the {ALTER. directory_name:} directory"
+                "text": "Could you please delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please delete the {ALTER. directory_name:} directory"
+                "text": "Please delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you delete the {ALTER. directory_name:} directory"
+                "text": "Can you delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to delete the {ALTER. directory_name:} directory"
+                "text": "I want to delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want you to delete the {ALTER. directory_name:} directory"
+                "text": "I want you to delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to delete the {ALTER. directory_name:} directory"
+                "text": "I would like to delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER. directory_name:} directory"
+                "text": "delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "delete me the {ALTER. directory_name:} directory"
+                "text": "delete me the {ALTER.directory_name:} directory"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER. directory_name:} directory"
+                "text": "delete the {ALTER.directory_name:} directory"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please delete the {ALTER. directory_name:} directory for me"
+                "text": "Hey would you please delete the {ALTER.directory_name:} directory for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "delete the content of the {ALTER. directory_name:} directory"
+                "text": "delete the content of the {ALTER.directory_name:} directory"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "delete the {ALTER. directory_name:} subdirectory under {ALTER.parent_directory:}"
+                "text": "delete the {ALTER.directory_name:} subdirectory under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER. directory_name:} folder"
+                "text": "Can you remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please remove the {ALTER. directory_name:} folder"
+                "text": "Could you please remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please remove the {ALTER. directory_name:} folder"
+                "text": "Please remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER. directory_name:} folder"
+                "text": "Can you remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to remove the {ALTER. directory_name:} folder"
+                "text": "I want to remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to remove the {ALTER. directory_name:} folder"
+                "text": "I would like to remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} folder"
+                "text": "remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} folder"
+                "text": "remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} folder"
+                "text": "remove the {ALTER.directory_name:} folder"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please remove the {ALTER. directory_name:} folder for me"
+                "text": "Hey would you please remove the {ALTER.directory_name:} folder for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "remove the content of the {ALTER. directory_name:} folder"
+                "text": "remove the content of the {ALTER.directory_name:} folder"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "remove the {ALTER.directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 15,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} subfolder under {ALTER.parent_directory:}"
+                "text": "remove the {ALTER.directory_name:} subfolder under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER. directory_name:} directory"
+                "text": "Can you remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 2,
                 "intent": "delete_directory_desire",
-                "text": "Could you please remove the {ALTER. directory_name:} directory"
+                "text": "Could you please remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 3,
                 "intent": "delete_directory_desire",
-                "text": "Please remove the {ALTER. directory_name:} directory"
+                "text": "Please remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 4,
                 "intent": "delete_directory_desire",
-                "text": "Can you remove the {ALTER. directory_name:} directory"
+                "text": "Can you remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want to remove the {ALTER. directory_name:} directory"
+                "text": "I want to remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 6,
                 "intent": "delete_directory_desire",
-                "text": "I want you to remove the {ALTER. directory_name:} directory"
+                "text": "I want you to remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 7,
                 "intent": "delete_directory_desire",
-                "text": "I would like to remove the {ALTER. directory_name:} directory"
+                "text": "I would like to remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 8,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} directory"
+                "text": "remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 9,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} directory"
+                "text": "remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 10,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} directory"
+                "text": "remove the {ALTER.directory_name:} directory"
             },
             {
                 "id": 12,
                 "intent": "delete_directory_desire",
-                "text": "Hey would you please remove the {ALTER. directory_name:} directory for me"
+                "text": "Hey would you please remove the {ALTER.directory_name:} directory for me"
             },
             {
                 "id": 13,
                 "intent": "delete_directory_desire",
-                "text": "remove the content of the {ALTER. directory_name:} directory"
+                "text": "remove the content of the {ALTER.directory_name:} directory"
             },
             {
                 "id": 14,
                 "intent": "delete_directory_desire",
-                "text": "remove the {ALTER. directory_name:} subdirectory under {ALTER.parent_directory:}"
+                "text": "remove the {ALTER.directory_name:} subdirectory under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
