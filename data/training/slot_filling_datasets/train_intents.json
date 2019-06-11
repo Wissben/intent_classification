@@ -932,7 +932,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -1372,7 +1372,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -1812,7 +1812,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -2252,7 +2252,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -2692,7 +2692,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -3132,7 +3132,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -3572,7 +3572,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -4012,7 +4012,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -4452,7 +4452,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -4892,7 +4892,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -5332,7 +5332,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -5772,7 +5772,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.file_name:}"
+                "text": "find {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -11241,7 +11241,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -11681,7 +11681,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -12121,7 +12121,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -12561,7 +12561,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -13001,7 +13001,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -13441,7 +13441,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -13881,7 +13881,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -14321,7 +14321,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -14761,7 +14761,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -15201,7 +15201,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -15641,7 +15641,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
@@ -16081,7 +16081,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "fin {EXCH.directory_name:}"
+                "text": "find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
