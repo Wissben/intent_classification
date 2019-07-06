@@ -450,6 +450,16 @@
                 "text": "it maybe under {EXCH.parent_directory:}"
             },
             {
+                "id": 13461,
+                "intent": "inform",
+                "text": "{EXCH.file_name:}"
+            },
+            {
+                "id": 13461,
+                "intent": "inform",
+                "text": "{EXCH.directory_name:}"
+            },
+            {
                 "id": 938,
                 "intent": "request",
                 "text": "where can i find the {EXCH.file_name:} file"
@@ -7042,6 +7052,266 @@
                 "text": "remove the {ALTER.file_name:} file under {ALTER.parent_directory:}"
             },
             {
+                "id": 1,
+                "intent": "delete_file_desire",
+                "text": "Can you erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 2,
+                "intent": "delete_file_desire",
+                "text": "Could you please erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 3,
+                "intent": "delete_file_desire",
+                "text": "Please erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 4,
+                "intent": "delete_file_desire",
+                "text": "Can you erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 6,
+                "intent": "delete_file_desire",
+                "text": "I want to erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 7,
+                "intent": "delete_file_desire",
+                "text": "I would like to erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 8,
+                "intent": "delete_file_desire",
+                "text": "erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 9,
+                "intent": "delete_file_desire",
+                "text": "erase me the {ALTER.file_name:} file"
+            },
+            {
+                "id": 10,
+                "intent": "delete_file_desire",
+                "text": "erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 12,
+                "intent": "delete_file_desire",
+                "text": "Hey would you please erase the {ALTER.file_name:} file for me"
+            },
+            {
+                "id": 13,
+                "intent": "delete_file_desire",
+                "text": "erase the content of the {ALTER.file_name:} file"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "erase the {ALTER.file_name:} file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "delete_file_desire",
+                "text": "erase me the {ALTER.file_name:} file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "delete_file_desire",
+                "text": "Can you erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 2,
+                "intent": "delete_file_desire",
+                "text": "Could you please erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 3,
+                "intent": "delete_file_desire",
+                "text": "Please erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 4,
+                "intent": "delete_file_desire",
+                "text": "Can you erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 6,
+                "intent": "delete_file_desire",
+                "text": "I want to erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 6,
+                "intent": "delete_file_desire",
+                "text": "I want you to erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 7,
+                "intent": "delete_file_desire",
+                "text": "I would like to erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 8,
+                "intent": "delete_file_desire",
+                "text": "erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 9,
+                "intent": "delete_file_desire",
+                "text": "erase me the {ALTER.file_name:} file"
+            },
+            {
+                "id": 10,
+                "intent": "delete_file_desire",
+                "text": "erase the {ALTER.file_name:} file"
+            },
+            {
+                "id": 12,
+                "intent": "delete_file_desire",
+                "text": "Hey would you please erase the {ALTER.file_name:} file for me"
+            },
+            {
+                "id": 13,
+                "intent": "delete_file_desire",
+                "text": "erase the content of the {ALTER.file_name:} file"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "erase the {ALTER.file_name:} file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "delete_file_desire",
+                "text": "Can you remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 2,
+                "intent": "delete_file_desire",
+                "text": "Could you please remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 3,
+                "intent": "delete_file_desire",
+                "text": "Please remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 4,
+                "intent": "delete_file_desire",
+                "text": "Can you remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 6,
+                "intent": "delete_file_desire",
+                "text": "I want to remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 7,
+                "intent": "delete_file_desire",
+                "text": "I would like to remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 8,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 9,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 10,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 12,
+                "intent": "delete_file_desire",
+                "text": "Hey would you please remove the {ALTER.file_name:} file for me"
+            },
+            {
+                "id": 13,
+                "intent": "delete_file_desire",
+                "text": "remove the content of the {ALTER.file_name:} file"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "remove the file {ALTER.file_name:} under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "delete_file_desire",
+                "text": "remove the file named {ALTER.file_name:} under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "delete_file_desire",
+                "text": "Can you remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 2,
+                "intent": "delete_file_desire",
+                "text": "Could you please remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 3,
+                "intent": "delete_file_desire",
+                "text": "Please remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 4,
+                "intent": "delete_file_desire",
+                "text": "Can you remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 6,
+                "intent": "delete_file_desire",
+                "text": "I want to remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 6,
+                "intent": "delete_file_desire",
+                "text": "I want you to remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 7,
+                "intent": "delete_file_desire",
+                "text": "I would like to remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 8,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 9,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 10,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file"
+            },
+            {
+                "id": 12,
+                "intent": "delete_file_desire",
+                "text": "Hey would you please remove the {ALTER.file_name:} file for me"
+            },
+            {
+                "id": 13,
+                "intent": "delete_file_desire",
+                "text": "remove the content of the {ALTER.file_name:} file"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "remove the {ALTER.file_name:} file under {ALTER.parent_directory:}"
+            },
+            {
                 "id": 1604,
                 "intent": "copy_file_desire",
                 "text": "Can you copy the {ALTER.file_name:} file to the {dest:} directory"
@@ -10357,6 +10627,136 @@
                 "id": 14,
                 "intent": "delete_directory_desire",
                 "text": "delete the {ALTER.directory_name:} subdirectory under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "delete_directory_desire",
+                "text": "Can you erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 2,
+                "intent": "delete_directory_desire",
+                "text": "Could you please erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 3,
+                "intent": "delete_directory_desire",
+                "text": "Please erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 4,
+                "intent": "delete_directory_desire",
+                "text": "Can you erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 6,
+                "intent": "delete_directory_desire",
+                "text": "I want to erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 7,
+                "intent": "delete_directory_desire",
+                "text": "I would like to erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 8,
+                "intent": "delete_directory_desire",
+                "text": "erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 9,
+                "intent": "delete_directory_desire",
+                "text": "erase me the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 10,
+                "intent": "delete_directory_desire",
+                "text": "erase the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 12,
+                "intent": "delete_directory_desire",
+                "text": "Hey would you please erase the {ALTER.directory_name:} folder for me"
+            },
+            {
+                "id": 13,
+                "intent": "delete_directory_desire",
+                "text": "erase the content of the {ALTER.directory_name:} folder"
+            },
+            {
+                "id": 14,
+                "intent": "delete_directory_desire",
+                "text": "erase the {ALTER.directory_name:} subfolder under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "delete_directory_desire",
+                "text": "erase me the {ALTER.directory_name:} subfolder under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "delete_directory_desire",
+                "text": "Can you erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 2,
+                "intent": "delete_directory_desire",
+                "text": "Could you please erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 3,
+                "intent": "delete_directory_desire",
+                "text": "Please erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 4,
+                "intent": "delete_directory_desire",
+                "text": "Can you erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 6,
+                "intent": "delete_directory_desire",
+                "text": "I want to erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 6,
+                "intent": "delete_directory_desire",
+                "text": "I want you to erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 7,
+                "intent": "delete_directory_desire",
+                "text": "I would like to erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 8,
+                "intent": "delete_directory_desire",
+                "text": "erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 9,
+                "intent": "delete_directory_desire",
+                "text": "erase me the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 10,
+                "intent": "delete_directory_desire",
+                "text": "erase the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 12,
+                "intent": "delete_directory_desire",
+                "text": "Hey would you please erase the {ALTER.directory_name:} directory for me"
+            },
+            {
+                "id": 13,
+                "intent": "delete_directory_desire",
+                "text": "erase the content of the {ALTER.directory_name:} directory"
+            },
+            {
+                "id": 14,
+                "intent": "delete_directory_desire",
+                "text": "erase the {ALTER.directory_name:} subdirectory under {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
