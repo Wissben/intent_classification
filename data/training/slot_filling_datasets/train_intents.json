@@ -6352,6 +6352,16 @@
                 "text": "Hey would you please create a new file for me"
             },
             {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "Hey would you please create a new file named {ALTER.file_name:} for me"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "Hey would you please create a new file named {ALTER.file_name:}"
+            },
+            {
                 "id": 13,
                 "intent": "create_file_desire",
                 "text": "create a file under {ALTER.parent_directory:}"
@@ -6360,6 +6370,26 @@
                 "id": 13,
                 "intent": "create_file_desire",
                 "text": "create a new file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create a new file named {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create a new file named {ALTER.parent_directory:} please"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create a file named {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create a file named {ALTER.parent_directory:} please"
             },
             {
                 "id": 16,
