@@ -487,7 +487,7 @@
             {
                 "id": 13461,
                 "intent": "inform",
-                "text": "inside{EXCH.file_name:}"
+                "text": "inside {EXCH.file_name:}"
             },
             {
                 "id": 13461,
@@ -532,7 +532,7 @@
             {
                 "id": 13461,
                 "intent": "inform",
-                "text": "inside{EXCH.directory_name:}"
+                "text": "inside {EXCH.directory_name:}"
             },
             {
                 "id": 13461,
