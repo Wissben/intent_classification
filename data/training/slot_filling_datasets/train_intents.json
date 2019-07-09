@@ -8307,6 +8307,86 @@
                 "text": "Can you move the {ALTER.file_name:} file to the {dest:} directory"
             },
             {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put {ALTER.file_name:} in {dest:} directory"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put {ALTER.file_name:} in {dest:} folder"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put the file {ALTER.file_name:} in {dest:} folder"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put the file {ALTER.file_name:} in the directory {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put the file {ALTER.file_name:} in the {dest:} folder"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place the file {ALTER.file_name:} under {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place {ALTER.file_name:} under {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place {ALTER.file_name:} in {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place the file {ALTER.file_name:} in {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place {ALTER.file_name:} inside {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place the file {ALTER.file_name:} inside {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place {ALTER.file_name:} under the {dest:} directory"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place {ALTER.file_name:} under the folder {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "place {ALTER.file_name:} under the directory {dest:}"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put {ALTER.file_name:} inside {dest:} directory"
+            },
+            {
+                "id": 2287,
+                "intent": "move_file_desire",
+                "text": "put {ALTER.file_name:} inside {dest:} folder"
+            },
+            {
                 "id": 1,
                 "intent": "move_file_desire",
                 "text": "Can you move the {ALTER.file_name:} file to the {dest:} folder"
@@ -11672,6 +11752,41 @@
                 "id": 938,
                 "intent": "request",
                 "text": "is there a folder named {EXCH.directory_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I put {EXCH.file_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I create {EXCH.file_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I create the file {EXCH.file_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I create {EXCH.file_name:} please"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I put {EXCH.directory_name:} folder"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I put {EXCH.directory_name:} directory"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where did I create {EXCH.directory_name:} directory"
             },
             {
                 "id": 938,
