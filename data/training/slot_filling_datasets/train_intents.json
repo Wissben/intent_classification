@@ -6444,6 +6444,41 @@
             {
                 "id": 11,
                 "intent": "create_file_desire",
+                "text": "Hey would you please create a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "create a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "create a file {ALTER.file_name:}"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "create {ALTER.file_name:}"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "create {ALTER.file_name:} under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "create {ALTER.file_name:} under {ALTER.parent_directory:} directory"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
+                "text": "create {ALTER.file_name:} under {ALTER.parent_directory:} folder"
+            },
+            {
+                "id": 11,
+                "intent": "create_file_desire",
                 "text": "Hey would you please create a new file named {ALTER.file_name:} for me"
             },
             {
@@ -6455,6 +6490,16 @@
                 "id": 13,
                 "intent": "create_file_desire",
                 "text": "create a file under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create a file {ALTER.file_name:} under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 13,
+                "intent": "create_file_desire",
+                "text": "create a new file {ALTER.file_name:} under {ALTER.parent_directory:}"
             },
             {
                 "id": 13,
@@ -6597,9 +6642,49 @@
                 "text": "make a new file"
             },
             {
+                "id": 15,
+                "intent": "create_file_desire",
+                "text": "Can you make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 16,
+                "intent": "create_file_desire",
+                "text": "Could you please make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 17,
+                "intent": "create_file_desire",
+                "text": "Please make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 18,
+                "intent": "create_file_desire",
+                "text": "Can you make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 19,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 20,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 21,
+                "intent": "create_file_desire",
+                "text": "I would like to make a new file {ALTER.file_name:}"
+            },
+            {
+                "id": 22,
+                "intent": "create_file_desire",
+                "text": "make a new file {ALTER.file_name:}"
+            },
+            {
                 "id": 25,
                 "intent": "create_file_desire",
-                "text": "Hey would you please make a new file for me"
+                "text": "Hey would you please make a new file {ALTER.file_name:} for me"
             },
             {
                 "id": 1,
@@ -6782,9 +6867,19 @@
                 "text": "open {INFO.file_name:}"
             },
             {
+                "id": 8,
+                "intent": "open_file_desire",
+                "text": "open {INFO.file_name:} please"
+            },
+            {
                 "id": 9,
                 "intent": "open_file_desire",
                 "text": "show me {INFO.file_name:}"
+            },
+            {
+                "id": 9,
+                "intent": "open_file_desire",
+                "text": "show me {INFO.file_name:} please"
             },
             {
                 "id": 9,
@@ -7047,6 +7142,16 @@
                 "text": "Can you remove the {ALTER.file_name:} file"
             },
             {
+                "id": 1,
+                "intent": "delete_file_desire",
+                "text": "remove {ALTER.file_name:}"
+            },
+            {
+                "id": 1,
+                "intent": "delete_file_desire",
+                "text": "remove {ALTER.file_name:} please"
+            },
+            {
                 "id": 2,
                 "intent": "delete_file_desire",
                 "text": "Could you please remove the {ALTER.file_name:} file"
@@ -7105,6 +7210,66 @@
                 "id": 15,
                 "intent": "delete_file_desire",
                 "text": "remove the file named {ALTER.file_name:} under {ALTER.parent_directory:}"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "remove the file {ALTER.file_name:}"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "remove the file {ALTER.file_name:} please"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "delete the file {ALTER.file_name:}"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "delete the file {ALTER.file_name:} please"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "delete {ALTER.file_name:}"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "delete {ALTER.file_name:} please"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "erase the file {ALTER.file_name:}"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "erase the file {ALTER.file_name:} please"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "erase {ALTER.file_name:}"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "erase {ALTER.file_name:} please"
+            },
+            {
+                "id": 14,
+                "intent": "delete_file_desire",
+                "text": "remove the file {ALTER.file_name:} from {ALTER.parent_directory:}"
+            },
+            {
+                "id": 15,
+                "intent": "delete_file_desire",
+                "text": "remove the file named {ALTER.file_name:} from {ALTER.parent_directory:}"
             },
             {
                 "id": 1,
@@ -8784,6 +8949,36 @@
             {
                 "id": 1,
                 "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to {dest:} please"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to {dest:} folder please"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to {dest:} directory"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to {dest:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to {dest:} directory please"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
                 "text": "copy the {ALTER.file_name:} file from {origin:}"
             },
             {
@@ -8800,11 +8995,21 @@
                 "id": 1,
                 "intent": "copy_file_desire",
                 "text": "copy {ALTER.file_name:} file from {origin:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} from {origin:}"
             },
             {
                 "id": 1,
                 "intent": "copy_file_desire",
                 "text": "copy {ALTER.file_name:} file from {origin:} to {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} from {origin:} to {dest:}"
             },
             {
                 "id": 1945,
@@ -9150,6 +9355,36 @@
                 "id": 2287,
                 "intent": "move_file_desire",
                 "text": "Can you move the {ALTER.file_name:} file from {origin:} to the {dest:} directory"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} please"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} folder please"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} directory"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} directory please"
             },
             {
                 "id": 1,
@@ -9567,6 +9802,21 @@
                 "text": "rename the {old_name:} file to {new_name:}"
             },
             {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "rename the file {old_name:} to {new_name:}"
+            },
+            {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "rename the file {old_name:}"
+            },
+            {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "rename {old_name:}"
+            },
+            {
                 "id": 1,
                 "intent": "rename_file_desire",
                 "text": "rename {old_name:} file to {new_name:}"
@@ -9690,6 +9940,26 @@
                 "id": 1604,
                 "intent": "rename_file_desire",
                 "text": "change the name of the {old_name:} file to {new_name:}"
+            },
+            {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "change the name of {old_name:} to {new_name:}"
+            },
+            {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "change the name of {old_name:} to {new_name:} please"
+            },
+            {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "change the file {old_name:} name to {new_name:}"
+            },
+            {
+                "id": 1604,
+                "intent": "rename_file_desire",
+                "text": "change {old_name:} name to {new_name:}"
             },
             {
                 "id": 1,
@@ -11087,6 +11357,16 @@
                 "id": 1,
                 "intent": "change_directory_desire",
                 "text": "Move to the folder {new_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "Move to the directory {new_directory:} please"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "Move to the folder {new_directory:} please"
             },
             {
                 "id": 1,
