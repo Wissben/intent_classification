@@ -262,6 +262,11 @@
             {
                 "id": 2,
                 "intent": "inform",
+                "text": "the parent directory is {EXCH.parent_directory:}"
+            },
+            {
+                "id": 2,
+                "intent": "inform",
                 "text": "the file name is {EXCH.file_name:}"
             },
             {
@@ -378,6 +383,11 @@
                 "id": 2,
                 "intent": "inform",
                 "text": "i think it is {EXCH.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "inform",
+                "text": "it is {EXCH.file_name:}"
             },
             {
                 "id": 2,
@@ -4872,17 +4882,12 @@
             {
                 "id": 1298,
                 "intent": "request",
-                "text": "search the {EXCH.file_name:} file"
+                "text": "search for the {EXCH.file_name:} file"
             },
             {
                 "id": 938,
                 "intent": "request",
-                "text": "search the {EXCH.file_name:} file"
-            },
-            {
-                "id": 938,
-                "intent": "request",
-                "text": "search the file {EXCH.file_name:}"
+                "text": "search for {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -4892,7 +4897,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "search the file named {EXCH.file_name:}"
+                "text": "search for the file {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -4902,7 +4907,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "search the {EXCH.file_name:} file please"
+                "text": "search for the file named {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -4912,7 +4917,7 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "search the file {EXCH.file_name:} please"
+                "text": "search for the {EXCH.file_name:} file please"
             },
             {
                 "id": 938,
@@ -4922,12 +4927,17 @@
             {
                 "id": 938,
                 "intent": "request",
-                "text": "search the file named {EXCH.file_name:} please"
+                "text": "search for the file {EXCH.file_name:} please"
             },
             {
                 "id": 938,
                 "intent": "request",
                 "text": "search the file named {EXCH.file_name:} please"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "search for the file named {EXCH.file_name:} please"
             },
             {
                 "id": 938,
@@ -8417,9 +8427,29 @@
                 "text": "move the {ALTER.file_name:} file to the {dest:} directory"
             },
             {
+                "id": 1604,
+                "intent": "move_file_desire",
+                "text": "move the file {ALTER.file_name:} to the {dest:} directory"
+            },
+            {
+                "id": 1604,
+                "intent": "move_file_desire",
+                "text": "move the file {ALTER.file_name:} to {dest:}"
+            },
+            {
+                "id": 1604,
+                "intent": "move_file_desire",
+                "text": "move the file {ALTER.file_name:} to {dest:} directory"
+            },
+            {
                 "id": 1,
                 "intent": "move_file_desire",
-                "text": "move the {ALTER.file_name:} file to the {dest:} folder"
+                "text": "move the  {ALTER.file_name:} file to the {dest:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move the file {ALTER.file_name:} to {dest:} folder"
             },
             {
                 "id": 1,
@@ -8460,6 +8490,16 @@
                 "id": 1,
                 "intent": "move_file_desire",
                 "text": "move {ALTER.file_name:} to {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "move_file_desire",
+                "text": "move {ALTER.file_name:} to {dest:} directory"
             },
             {
                 "id": 1776,
@@ -8950,6 +8990,51 @@
                 "id": 1,
                 "intent": "copy_file_desire",
                 "text": "copy {ALTER.file_name:} to {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy the file {ALTER.file_name:} to {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy the file {ALTER.file_name:} to {dest:} folder"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy the file {ALTER.file_name:} to the folder {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy the file {ALTER.file_name:} to the directory {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy the file {ALTER.file_name:} to the directory {dest:} please"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to the folder {dest:} please"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to the directory {dest:} please"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to the directory {dest:}"
+            },
+            {
+                "id": 1,
+                "intent": "copy_file_desire",
+                "text": "copy {ALTER.file_name:} to the folder {dest:}"
             },
             {
                 "id": 1,
@@ -11391,16 +11476,6 @@
             {
                 "id": 1,
                 "intent": "change_directory_desire",
-                "text": "find the {new_directory:} directory and move to it"
-            },
-            {
-                "id": 1,
-                "intent": "change_directory_desire",
-                "text": "find the {new_directory:} folder and move to it"
-            },
-            {
-                "id": 1,
-                "intent": "change_directory_desire",
                 "text": "Move to {new_directory:} directory"
             },
             {
@@ -11427,16 +11502,6 @@
                 "id": 1,
                 "intent": "change_directory_desire",
                 "text": "change to the {new_directory:} folder"
-            },
-            {
-                "id": 1,
-                "intent": "change_directory_desire",
-                "text": "find and move to the {new_directory:} directory"
-            },
-            {
-                "id": 15,
-                "intent": "change_directory_desire",
-                "text": "find and move to the {new_directory:} folder"
             },
             {
                 "id": 1,
@@ -11562,6 +11627,31 @@
                 "id": 938,
                 "intent": "request",
                 "text": "where can i find the {EXCH.directory_name:} folder"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "is there a folder named {EXCH.directory_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "is there a file {EXCH.file_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "is there a folder {EXCH.directory_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "is there a directory {EXCH.directory_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "is there a file named {EXCH.file_name:}"
             },
             {
                 "id": 938,
@@ -12502,6 +12592,11 @@
                 "id": 938,
                 "intent": "request",
                 "text": "can you find {EXCH.directory_name:} please"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "can you find {EXCH.directory_name:}"
             },
             {
                 "id": 938,
