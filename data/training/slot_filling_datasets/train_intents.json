@@ -6464,22 +6464,22 @@
             {
                 "id": 13,
                 "intent": "create_file_desire",
-                "text": "create a new file named {ALTER.parent_directory:}"
+                "text": "create a new file named {ALTER.file_name:}"
             },
             {
                 "id": 13,
                 "intent": "create_file_desire",
-                "text": "create a new file named {ALTER.parent_directory:} please"
+                "text": "create a new file named {ALTER.file_name:} please"
             },
             {
                 "id": 13,
                 "intent": "create_file_desire",
-                "text": "create a file named {ALTER.parent_directory:}"
+                "text": "create a file named {ALTER.file_name:}"
             },
             {
                 "id": 13,
                 "intent": "create_file_desire",
-                "text": "create a file named {ALTER.parent_directory:} please"
+                "text": "create a file named {ALTER.file_name:} please"
             },
             {
                 "id": 16,
