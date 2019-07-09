@@ -272,6 +272,11 @@
             {
                 "id": 2,
                 "intent": "inform",
+                "text": "the file's name is {EXCH.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "inform",
                 "text": "its name is {EXCH.file_name:}"
             },
             {
