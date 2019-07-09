@@ -11661,6 +11661,16 @@
             {
                 "id": 938,
                 "intent": "request",
+                "text": "where can i find {EXCH.file_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "where can i find {EXCH.file_name:} please"
+            },
+            {
+                "id": 938,
+                "intent": "request",
                 "text": "is there a folder named {EXCH.directory_name:}"
             },
             {
