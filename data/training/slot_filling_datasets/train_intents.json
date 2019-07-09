@@ -277,6 +277,16 @@
             {
                 "id": 2,
                 "intent": "inform",
+                "text": "the file's name is {EXCH.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "inform",
+                "text": "the file's name is {EXCH.file_name:}"
+            },
+            {
+                "id": 2,
+                "intent": "inform",
                 "text": "its name is {EXCH.file_name:}"
             },
             {
@@ -11476,6 +11486,21 @@
             {
                 "id": 1,
                 "intent": "change_directory_desire",
+                "text": "go to {new_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "go to the directory {new_directory:}"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
+                "text": "go to {new_directory:} directory"
+            },
+            {
+                "id": 1,
+                "intent": "change_directory_desire",
                 "text": "change folder to {new_directory:}"
             },
             {
@@ -11637,6 +11662,11 @@
                 "id": 938,
                 "intent": "request",
                 "text": "is there a folder named {EXCH.directory_name:}"
+            },
+            {
+                "id": 938,
+                "intent": "request",
+                "text": "is there a file {EXCH.file_name:}"
             },
             {
                 "id": 938,
