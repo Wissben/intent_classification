@@ -21,7 +21,7 @@ Markdown==3.1
 nltk==3.4
 numpy==1.16.2
 pipreqs==0.4.9
-protobuf==3.7.1
+protobuf==3.18.3
 pycodestyle==2.5.0
 pydot==1.4.1
 pyparsing==2.4.0
